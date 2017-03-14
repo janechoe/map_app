@@ -1,16 +1,26 @@
 package com.example.janechoe.myapplication;
 
-import android.support.v4.app.FragmentActivity;
+import android.app.Fragment;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.widget.DrawerLayout;
+import android.widget.ListView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
-import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
+    private String[] menuOptions;
+    private DrawerLayout myDrawerLayout;
+    private ListView myList;
+    private Fragment menuFragment;
+    private MapFragment mMapFragment;
 
     private GoogleMap mMap;
 
@@ -18,12 +28,19 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
-        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
-        mapFragment.getMapAsync(this);
-    }
 
+        if (findViewById(R.id.content_frame)!=null){
+            if (savedInstanceState!=null){
+                return;
+            }
+            // to add fragment dynamically, create new instance- add to frame layout
+            mMapFragment= MapFragment.newInstance();
+            FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+            fragmentTransaction.add(R.id.content_frame, mMapFragment);
+            fragmentTransaction.commit();
+
+        }
+    }
 
     /**
      * Manipulates the map once available.
@@ -44,3 +61,37 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }
+//
+//        menuOptions = getResources().getStringArray(R.array.menu_array);
+//        myDrawerLayout = (DrawerLayout)findViewById(R.id.drawer_layout);
+//        myList= (ListView)findViewById(R.id.left_drawer);
+
+
+
+
+//        myList.setAdapter(new ArrayAdapter<String>(this, R.layout.drawer_list_item, menuOptions));
+//        myList.setOnItemClickListener(new DrawerItemClickListener());
+
+
+//MAKE MAP FRAGMENT
+
+
+
+
+//
+//    private class DrawerItemClickListener implements ListView.OnItemClickListener {
+//        @Override
+//        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//            selectItem(position);
+//        }
+//    }
+//
+//    private void selectItem(int position){
+//        Fragment fragment = new MenuFragment();
+//        Bundle args = new Bundle();
+//        //shows activity based on position
+//        args.putInt(MenuFragment.ARG_OPTION_NUMBER, position);
+//
+//
+//    }
+

@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Indigenous Futures</string>
     <string name="title_activity_maps">Map</string>
+    <string-array name="menu_array">
+        <item>Home</item>
+        <item>About</item>
+        <item>Contributors</item>
+        <item>Tours</item>
+        <item>Resources</item>
+    </string-array>
+
 </resources>
