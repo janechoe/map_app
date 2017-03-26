@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.janechoe.myapplication.AboutFragment">
-
-    <ScrollView
-        android:id="@+id/aboutScroll"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scrollbars="vertical"
-        android:fillViewport="true">
-        <TextView
-            android:id="@+id/textView"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:id="@+id/aboutScroll"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:text="@string/about_text" />
-    </ScrollView>
+            android:scrollbars="vertical"
+            >
+            <TextView
+                android:id="@+id/about_text_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_text_1" />
+        </ScrollView>
 
 
-</FrameLayout>
+        <ScrollView
+            android:id="@+id/aboutScroll_2"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/aboutScroll"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical"
+            >
+            <TextView
+                android:id="@+id/about_text_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about_text_2" />
+        </ScrollView>
+    </RelativeLayout>
+</ScrollView>
