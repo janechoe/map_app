@@ -126,10 +126,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 break;
             case 2:
                 //contributors
-//                Fragment contributorsFragment = new ContributorsFragment();
-//                FragmentTransaction contributorsTransaction = getFragmentManager().beginTransaction();
-//                contributorsTransaction.replace(R.id.content_frame, contributorsFragment);
-//                contributorsTransaction.commit();
+                Fragment contributorsFragment = new ContributorsFragment();
+                FragmentTransaction contributorsTransaction = getFragmentManager().beginTransaction();
+                contributorsTransaction.replace(R.id.content_frame, contributorsFragment);
+                contributorsTransaction.commit();
                 break;
             case 3:
                 //tours
