@@ -1,7 +1,7 @@
 package com.example.janechoe.myapplication;
 
+import android.app.Fragment;
 import android.app.FragmentTransaction;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.DrawerLayout;
@@ -78,8 +78,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
     }
-
-
     /**
      * Manipulates the map once available.
      * This callback is triggered when the map is ready to be used.
@@ -110,15 +108,28 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private void selectItem(int position){
         switch(position) {
             case 0:
+                //Highlight selected item
+//                myList.setItemChecked(position, true);
+//                myDrawerLayout.closeDrawer(myList);
+                mMapFragment= MapFragment.newInstance();
+                FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+                fragmentTransaction.add(R.id.content_frame, mMapFragment);
+                fragmentTransaction.commit();
                 break;
             case 1:
-                //about
-                Intent switchIntent = new Intent(this, AboutActivity.class);
-                startActivity(switchIntent);
+                //about - change fragment
+//                FragmentTransaction ft = fm.beginTransaction();
+                Fragment aboutFragment = new AboutFragment();
+                FragmentTransaction aboutTransaction= getFragmentManager().beginTransaction();
+                aboutTransaction.replace(R.id.content_frame, aboutFragment);
+                aboutTransaction.commit();
                 break;
             case 2:
                 //contributors
-                //Intent switchIntent = new Intent(this, AboutActivity.class);
+//                Fragment contributorsFragment = new ContributorsFragment();
+//                FragmentTransaction contributorsTransaction = getFragmentManager().beginTransaction();
+//                contributorsTransaction.replace(R.id.content_frame, contributorsFragment);
+//                contributorsTransaction.commit();
                 break;
             case 3:
                 //tours
@@ -131,8 +142,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         }
         //Highlight selected item
         myList.setItemChecked(position, true);
-        //close drawer
         myDrawerLayout.closeDrawer(myList);
+        //close drawer
+
     }
 
 }

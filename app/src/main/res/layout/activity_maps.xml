@@ -5,18 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <!-- The main content view -->
-
-    <FrameLayout
-        android:id="@+id/content_frame"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-
+        android:layout_height="match_parent"
+        android:orientation="vertical">
         <Button
+            android:layout_gravity="top"
             android:id="@+id/menuButton"
-            android:layout_width="100dp"
+            android:layout_width="108dp"
             android:layout_height="50dp"
             android:text="Menu" />
-    </FrameLayout>
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+
         <!-- The navigation drawer -->
     <ListView android:id="@+id/left_drawer"
             android:layout_width="240dp"

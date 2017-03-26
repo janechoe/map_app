@@ -29,7 +29,7 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAkMui0LcLexZKzdH2Tw5cTGO87U1yB7Ro" />
+            android:value="AIzaSyBB0jioau9BQQx6ivv14M3YmYqBGWXNRjM" />
 
         <activity
             android:name=".MapsActivity"
@@ -40,7 +40,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".AboutActivity">
+            android:parentActivityName="com.example.janechoe.myapplication.MapsActivity" >
+        </activity>
     </application>
 
 </manifest>
