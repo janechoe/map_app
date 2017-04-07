@@ -36,6 +36,7 @@
         \tThis project was produced with funds from NYU\'s Gallatin Teaching-with-Technology Grant.
         \n\n
     </string>
-
+    <string name="kml_google">http://googlemaps.github.io/kml-samples/morekml/Polygons/Polygons.Google_Campus.kml</string>
+    <string name="kml_url">https://github.com/dl2514/dl2514.github.io/blob/master/Indigenous_Futures_Decolonizing_NYC.kml?raw=true</string>
 
 </resources>

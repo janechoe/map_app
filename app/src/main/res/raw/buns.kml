@@ -1,0 +1,2055 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Indigenous Futures | Decolonizing NYC</name>
+	<Style id="icon-1899-F9A825-normal">
+		<IconStyle>
+			<color>ff25a8f9</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="line-DB4436-2-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff3644db</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="line-0288D1-6-normal">
+		<LineStyle>
+			<color>ffd18802</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="line-000000-2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-000000-2-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-000000-2-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-000000-2-highlight">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="line-000000-2-normal">
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="line-C2185B-3-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff5b18c2</color>
+			<width>5</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="line-C2185B-2-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-C2185B-2-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-C2185B-2-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1899-F9A825-nodesc-highlight">
+		<IconStyle>
+			<color>ff25a8f9</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="line-0288D1-6-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffd18802</color>
+			<width>6</width>
+		</LineStyle>
+	</Style>
+	<Style id="icon-1899-097138-normal">
+		<IconStyle>
+			<color>ff387109</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="poly-9C27B0-2-64-highlight">
+		<LineStyle>
+			<color>ffb0279c</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40b0279c</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="icon-1899-FFEA00">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-FFEA00-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-FFEA00-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-A52714-1-highlight">
+		<LineStyle>
+			<color>ff1427a5</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="line-0288D1-6-highlight">
+		<LineStyle>
+			<color>ffd18802</color>
+			<width>9</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="icon-1571-424242">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1571-424242-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1571-424242-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-0288D1-7-normal">
+		<LineStyle>
+			<color>ffd18802</color>
+			<width>7</width>
+		</LineStyle>
+	</Style>
+	<Style id="icon-1899-7CB342-nodesc-normal">
+		<IconStyle>
+			<color>ff42b37c</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="poly-9C27B0-2-64-normal">
+		<LineStyle>
+			<color>ffb0279c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>40b0279c</color>
+		</PolyStyle>
+	</Style>
+	<Style id="icon-1899-7CB342-highlight">
+		<IconStyle>
+			<color>ff42b37c</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+	</Style>
+	<Style id="icon-1899-A52714-normal">
+		<IconStyle>
+			<color>ff1427a5</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="line-0288D1-7-highlight">
+		<LineStyle>
+			<color>ffd18802</color>
+			<width>11</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="line-DB4436-2-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-DB4436-2-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-DB4436-2-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1524-424242-highlight">
+		<IconStyle>
+			<color>ff424242</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="icon-1899-9C27B0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-9C27B0-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-9C27B0-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1899-F9A825-highlight">
+		<IconStyle>
+			<color>ff25a8f9</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="icon-1899-FFD600">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-FFD600-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-FFD600-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-1899-7CB342">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-7CB342-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-7CB342-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1556-424242-highlight">
+		<IconStyle>
+			<color>ff424242</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+	</Style>
+	<Style id="line-C2185B-2-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff5b18c2</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="line-0288D1-6-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-0288D1-6-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-0288D1-6-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-1899-0288D1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-0288D1-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-1899-F9A825">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-F9A825-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-F9A825-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-DB4436-2-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff3644db</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="icon-1899-7CB342-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-7CB342-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-7CB342-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-1899-F9A825-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-F9A825-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-F9A825-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1899-FFEA00-normal">
+		<IconStyle>
+			<color>ff00eaff</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="icon-1899-7CB342-nodesc-highlight">
+		<IconStyle>
+			<color>ff42b37c</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-1899-097138-highlight">
+		<IconStyle>
+			<color>ff387109</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+	</Style>
+	<Style id="icon-1899-F9A825-nodesc-normal">
+		<IconStyle>
+			<color>ff25a8f9</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-1899-795548-highlight">
+		<IconStyle>
+			<color>ff485579</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="line-000000-1-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-000000-1-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-000000-1-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-000000-1-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="icon-1899-BDBDBD-highlight">
+		<IconStyle>
+			<color>ffbdbdbd</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+	</Style>
+	<Style id="line-000000-1-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff000000</color>
+		</LineStyle>
+	</Style>
+	<Style id="icon-1899-FFD600-normal">
+		<IconStyle>
+			<color>ff00d6ff</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="line-0288D1-6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-0288D1-6-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-0288D1-6-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-C2185B-2-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff5b18c2</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Style id="line-0288D1-6-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffd18802</color>
+			<width>9</width>
+		</LineStyle>
+	</Style>
+	<Style id="icon-1899-0F9D58-normal">
+		<IconStyle>
+			<color>ff589d0f</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="icon-1899-0288D1-nodesc-normal">
+		<IconStyle>
+			<color>ffd18802</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="line-424242-2-normal">
+		<LineStyle>
+			<color>ff424242</color>
+			<width>2</width>
+		</LineStyle>
+	</Style>
+	<Style id="line-424242-2-highlight">
+		<LineStyle>
+			<color>ff424242</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="icon-1899-097138">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-097138-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-097138-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1556-424242-normal">
+		<IconStyle>
+			<color>ff424242</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="icon-1899-0288D1-normal">
+		<IconStyle>
+			<color>ffd18802</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="icon-1556-424242">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1556-424242-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1556-424242-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-1899-BDBDBD">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-BDBDBD-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-BDBDBD-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1899-7CB342-normal">
+		<IconStyle>
+			<color>ff42b37c</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="icon-1899-0288D1-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1899-0288D1-highlight">
+		<IconStyle>
+			<color>ffd18802</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+	</Style>
+	<Style id="icon-1571-424242-highlight">
+		<IconStyle>
+			<color>ff424242</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+	</Style>
+	<Style id="icon-1571-424242-normal">
+		<IconStyle>
+			<color>ff424242</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="poly-9C27B0-3-77-normal">
+		<LineStyle>
+			<color>ffb0279c</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4db0279c</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="line-A52714-1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-A52714-1-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-A52714-1-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-1899-0F9D58">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-0F9D58-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-0F9D58-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1899-FFD600-highlight">
+		<IconStyle>
+			<color>ff00d6ff</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+	</Style>
+	<Style id="poly-9C27B0-2-77-normal">
+		<LineStyle>
+			<color>ffb0279c</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4db0279c</color>
+		</PolyStyle>
+	</Style>
+	<Style id="icon-1899-0F9D58-highlight">
+		<IconStyle>
+			<color>ff589d0f</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+	</Style>
+	<Style id="poly-9C27B0-3-77-highlight">
+		<LineStyle>
+			<color>ffb0279c</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4db0279c</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-9C27B0-2-77-highlight">
+		<LineStyle>
+			<color>ffb0279c</color>
+			<width>3</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4db0279c</color>
+		</PolyStyle>
+	</Style>
+	<Style id="icon-1524-424242-normal">
+		<IconStyle>
+			<color>ff424242</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="line-424242-2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-424242-2-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-424242-2-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="line-C2185B-3-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-C2185B-3-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-C2185B-3-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1899-BDBDBD-normal">
+		<IconStyle>
+			<color>ffbdbdbd</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="icon-1899-795548-normal">
+		<IconStyle>
+			<color>ff485579</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="line-C2185B-3-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff5b18c2</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="icon-1524-424242">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1524-424242-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1524-424242-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-A52714-1-normal">
+		<LineStyle>
+			<color>ff1427a5</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="icon-1899-795548">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-795548-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-795548-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1899-FFEA00-highlight">
+		<IconStyle>
+			<color>ff00eaff</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+	</Style>
+	<Style id="icon-1899-A52714-highlight">
+		<IconStyle>
+			<color>ff1427a5</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+	</Style>
+	<Style id="icon-1899-0288D1-nodesc-highlight">
+		<IconStyle>
+			<color>ffd18802</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="icon-1899-9C27B0-normal">
+		<IconStyle>
+			<color>ffb0279c</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="line-0288D1-7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-0288D1-7-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-0288D1-7-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="poly-9C27B0-2-64">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-9C27B0-2-64-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-9C27B0-2-64-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="poly-9C27B0-3-77">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-9C27B0-3-77-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-9C27B0-3-77-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="poly-9C27B0-2-77">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-9C27B0-2-77-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-9C27B0-2-77-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-1899-9C27B0-highlight">
+		<IconStyle>
+			<color>ffb0279c</color>
+			<Icon>
+				<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="icon-1899-A52714">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-1899-A52714-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-1899-A52714-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Untitled layer</name>
+		<Placemark>
+			<name>The Manhattan Indians</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/KxQKD57eL5R6pXmYFUhNTkkZsZbas06wU0BWH9K1r9atdYfBXnJOdas9qQ8PDco5ECGasjBWvfYB42HxIozec10K5Tq-dR1od-X2XpyctBhk-oxcQK5GXYrgqAoTiAN3Mw" height="200" width="auto" /><br><br>from The Building of Manhattan by Donald A. Mackay<br><br>--Jonathan]]></description>
+			<styleUrl>#icon-1899-9C27B0</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/KxQKD57eL5R6pXmYFUhNTkkZsZbas06wU0BWH9K1r9atdYfBXnJOdas9qQ8PDco5ECGasjBWvfYB42HxIozec10K5Tq-dR1od-X2XpyctBhk-oxcQK5GXYrgqAoTiAN3Mw</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.996911,40.7151025,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>colonial lifestyles, native species, and climate change</name>
+			<description><![CDATA[the original people of this area were able to draw on the resources of the water and the land, but the European colonialist state took a much more aggressive approach to land use, dredging the bay so that large ships could navigate it, allowing New York to become a center of global capitalism. The destructive anthropogenic changes in the structure of the New York Bay caused dramatic changes in its flora and fauna, eradicating many shellfish that were a primary food source for the Lenape. After 400 years of dredging and interference, global climate change has caused large storms like Hurricane Sandy to hit New York, but the destruction of the shallow estuarine environment causes storm surges to hit the city unfiltered by marshes and shoals. Much of the damage to lower Manhattan and other coastal neighborhoods in New York and New Jersey could have been mitigated had we not deepened and built out into the Bay. <br><br>- Chloe]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-74.04356,40.5844958,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NYC Department of Environmental Protection</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/SbZJ_9BHTq4PmzxIE65QQhDGebcawJNHJylRdY3lcxxaw9Fa-QlDC1dyybEKWQxccf_HFCJTzmNFY7Ry8XdFJpLI_L6BiON_UWtS8ArSno0rRf6lDu3xGTUaSvbJyq14" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/SbZJ_9BHTq4PmzxIE65QQhDGebcawJNHJylRdY3lcxxaw9Fa-QlDC1dyybEKWQxccf_HFCJTzmNFY7Ry8XdFJpLI_L6BiON_UWtS8ArSno0rRf6lDu3xGTUaSvbJyq14</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.8634813,40.7347439,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lenape Valley Regional High School</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>-74.6981765,40.9209488,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lenape Park</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>-74.8872606,40.4916042,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lenape High School</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>-74.8550084,39.9206244,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Indian Field</name>
+			<description><![CDATA[This tract of land honors Chief Abraham Ninham and the 17 Mohican Indians who died here during a mission to aid the Americans in the Revolutionary War.<br><br>https://www.nycgovparks.org/parks/VanCortlandtPark/highlights/11610<br><br>--Jonathan]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-73.87829259999999,40.8964941,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Natural Landscape vs. Colonized Landscape</name>
+		<Placemark>
+			<name>Minetta Brook</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/xm7gPuv2KgaLHF2P7dJWQvMT9ZHZFcmhpqPMWVnPHEbxvnVcivJsXkYrNul9UasVL1TUQcgUO3qwgtcfTWsEOGn6W4P4xnfHoRqE6KFfvopDfWyQpP_m7ymE_udvl92I" height="200" width="auto" /><br><br>Originally Minetta Brook (also known as Minetta Creek) flowed throughout lower Manhattan, but this fountain is the only place where it is still visible aboveground. [map from the Museum of the City of New York]<br><br>- Chloe]]></description>
+			<styleUrl>#icon-1899-097138</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh6.googleusercontent.com/xm7gPuv2KgaLHF2P7dJWQvMT9ZHZFcmhpqPMWVnPHEbxvnVcivJsXkYrNul9UasVL1TUQcgUO3qwgtcfTWsEOGn6W4P4xnfHoRqE6KFfvopDfWyQpP_m7ymE_udvl92I</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9966683,40.7320318,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Original Manahataan</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/T1UyQ9outgHa1urAmsmqCH1W0CqsVipl39kPYBNoLgKnuHS8wIIlOsflBUnn3pqjmJaXMmDj0AYgkKmNm4IU6x98uDBWUFoF24c5GpL9Z5xFXZeKTtWToe-jmdBroYU" height="200" width="auto" /><br><br>An illustration showing Manahataan as it was prior to colonization, and after, with the introduction of landfilling.]]></description>
+			<styleUrl>#icon-1899-097138</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh6.googleusercontent.com/T1UyQ9outgHa1urAmsmqCH1W0CqsVipl39kPYBNoLgKnuHS8wIIlOsflBUnn3pqjmJaXMmDj0AYgkKmNm4IU6x98uDBWUFoF24c5GpL9Z5xFXZeKTtWToe-jmdBroYU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.016864,40.7024844,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Manhattan, about 1660</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/crVUI51rp_W-RQmbqyJttRDnmQG9TGT3-mdZKFfbx_1ugUv-wNtR4Ywqaq7Eh-YR6UFcFo-VJRqdZ_BnW30eeTPJQqnbpYOqVFh85lYD9exNcvA9O-_Q8vgoe7i7w4Eu" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1899-097138</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/crVUI51rp_W-RQmbqyJttRDnmQG9TGT3-mdZKFfbx_1ugUv-wNtR4Ywqaq7Eh-YR6UFcFo-VJRqdZ_BnW30eeTPJQqnbpYOqVFh85lYD9exNcvA9O-_Q8vgoe7i7w4Eu</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.01883340000001,40.7064972,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Original Spuyten-Duyvil Creek</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/RMzKbLw5gzlC_uV6qkwfBY44U20nAYyLUbCA6CYup7Yb0y9w8KD4jdx9P-kX6MAD2Cjjg-8ecUxSGJmbRmgUpcx9vBvE0kirAfBXbeiYhIIcjYP1h327RlyOKG8AAJH61w" height="200" width="auto" /><br><br>Spuyten-Duyvil Creek before it was transformed by the Harlem River Ship Canal in January 1888 for transportation purposes.]]></description>
+			<styleUrl>#icon-1899-097138</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/RMzKbLw5gzlC_uV6qkwfBY44U20nAYyLUbCA6CYup7Yb0y9w8KD4jdx9P-kX6MAD2Cjjg-8ecUxSGJmbRmgUpcx9vBvE0kirAfBXbeiYhIIcjYP1h327RlyOKG8AAJH61w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9221069,40.8789442,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Spuyten-Duyvil Creek Re-routing</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/WWGuTGKaCHX00Fgn6_8FEUs8vKmcz7LU1J3dKxYHG6FyK8lv0FWivnAnWzgjvUvaEE67g-gmXqNbPgzDIGgdfD0j7m7rjKYtwscjE3CL63t_cmR_T6vvKC7JhcURjHEm" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1899-097138</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/WWGuTGKaCHX00Fgn6_8FEUs8vKmcz7LU1J3dKxYHG6FyK8lv0FWivnAnWzgjvUvaEE67g-gmXqNbPgzDIGgdfD0j7m7rjKYtwscjE3CL63t_cmR_T6vvKC7JhcURjHEm</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.92227990000001,40.8788874,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Welikia</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/3evz3EFcfi525-Pi1w5Q1nmAYiL3Kgv7W9vLrbNUvd9DVEdpnR3BSz1qoMbuvVqI_D4qcyDW0iJTRfS_m9osHaYueOfB00c6LSdUo7u7fygXkZnZYB4FV9rh0bSCel9j" height="200" width="auto" /><br><br>Welikia (Lenape for "My good home") looking East, circa 1609<br><br><img src="https://lh5.googleusercontent.com/ulCcz9LC_in8okG8dRjf-AN_uYs9IkvzFcXPt8UK58PNk23wLK8lzlSznWeLM_Rbr3Tv_-lHRTmHWMQDXop73lfNi6HqElk1QSNHngb0zjy46CGRe6xhZrX48SwAkaSd" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-097138</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/3evz3EFcfi525-Pi1w5Q1nmAYiL3Kgv7W9vLrbNUvd9DVEdpnR3BSz1qoMbuvVqI_D4qcyDW0iJTRfS_m9osHaYueOfB00c6LSdUo7u7fygXkZnZYB4FV9rh0bSCel9j https://lh5.googleusercontent.com/ulCcz9LC_in8okG8dRjf-AN_uYs9IkvzFcXPt8UK58PNk23wLK8lzlSznWeLM_Rbr3Tv_-lHRTmHWMQDXop73lfNi6HqElk1QSNHngb0zjy46CGRe6xhZrX48SwAkaSd</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9944649,40.7683217,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Manhattan in 1609 vs Now</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/Ww_OcvdxrRwmH8N_C6S-8nm039wL2bAlVBukplfC0H_Vz2nD_P-s9fzam0Lcjf-btHvZMQfzuLC-B-g7HZMwELsjfmp34uMjh2NidKo1M4GLhIAQRGGAimGvSWx8Q4h6YQ" height="200" width="auto" /><br><br>An image juxtaposing southern Manhattan in 1609 and Manhattan now.<br><br>https://decolonialatlas.wordpress.com/tag/new-york-city/]]></description>
+			<styleUrl>#icon-1899-097138</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/Ww_OcvdxrRwmH8N_C6S-8nm039wL2bAlVBukplfC0H_Vz2nD_P-s9fzam0Lcjf-btHvZMQfzuLC-B-g7HZMwELsjfmp34uMjh2NidKo1M4GLhIAQRGGAimGvSWx8Q4h6YQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.01169539999999,40.7029114,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Original path of Newtown Creek</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/_g_EXiGOgQLljuIZ2DYBWsL8Pnw2U2OEXAOlJbkenTIzTFR65sqFONXlzrYeCG_PkOOhZhoqVqnIC_QuE3T_aXs55PAMiaQEs9HcqNwhFz9U1eLfph4tNrkZfBUVHtVr" height="200" width="auto" /><br><br>Newtown Creek is a body of water mainly surrounded by industrial space today, including the Newtown Creek Wastewater Treatment Plant. It originally had a more winding and extensive path, as seen in this map from 1889. <br><br>- Chloe]]></description>
+			<styleUrl>#icon-1899-097138</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/_g_EXiGOgQLljuIZ2DYBWsL8Pnw2U2OEXAOlJbkenTIzTFR65sqFONXlzrYeCG_PkOOhZhoqVqnIC_QuE3T_aXs55PAMiaQEs9HcqNwhFz9U1eLfph4tNrkZfBUVHtVr</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.925972,40.7235186,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ward&apos;s and Randall&apos;s Island(s)</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/02pTS4XOVh2NRV21uXcLeH96ggqWkedIaHiv9ppkvjNGGFFiTV-VawkHt0CwLXXSOUT5adr3NKH5xkSJrnZ_9ys_04PuKandOeKK4ybszL57lSqyYWQluCZNXbRuSuXb3w" height="200" width="auto" /><br><br>As seen on this 1874 map, what is now one artificially filled island that supports highway and bridge infrastructure used to be three separate marshy islands.  <br><br>- Chloe]]></description>
+			<styleUrl>#icon-1899-097138</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/02pTS4XOVh2NRV21uXcLeH96ggqWkedIaHiv9ppkvjNGGFFiTV-VawkHt0CwLXXSOUT5adr3NKH5xkSJrnZ_9ys_04PuKandOeKK4ybszL57lSqyYWQluCZNXbRuSuXb3w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.92382619999999,40.7899647,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bronx Oyster Reef Restoration Project</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/8x7rRoP64JETvFaZCAGCnAVKXa19xcVq55VeYvpx7CYniGXxYcmdG1HRQtZaz3RITFCBsLVzK-X3oX5jAGPJr6WBwi_d0YGGCDQkWYPsEBYclpBdt0D_bR_ASli_XMBC" height="200" width="auto" /><br><br>Oysters were an extremely important food resource for much of this area's history, both for Lenape people and for early immigrants and colonists. However, due to wastewater and chemical pollution oysters became unsafe to eat in the 1800s and were driven to the brink of extinction in the city's waterways by dredging and overharvesting. This site is one of the few where oyster colonies remain and multiple organizations are working in tandem to help build up their habitat and improve the health of the waterway. These include educational institutions and citizen's groups like Rocking the Boat and public institutions like the NYC Parks Department. Oysters, surf clams, and other shellfish are integral to the health of our waterways, protecting us from pollution and storm surges and supporting diverse ecosystems. Nowadays, nonprofit programs are encouraging restaurants to return used oyster shells to areas like this one to build habitat, but this important balance is something that indigenous peoples like the Lenape already know. [Photos from the NYC Parks Dept. and the NY-NJ Harbor Estuary Program]. <br><br>- Chloe<br><br><img src="https://lh4.googleusercontent.com/5WvwRHrb-pNf4Xn_LxEKTIjWQircqZX0g1zDqOVmKj20xeh7rIypVzKgp5HKdmt_VmQ4aM2f8Ux7Hp4bpK_MkLk3tZZ1yOxVBXagyHYouYScHq3fAZ-v0B2856hwsZk" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-097138</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/8x7rRoP64JETvFaZCAGCnAVKXa19xcVq55VeYvpx7CYniGXxYcmdG1HRQtZaz3RITFCBsLVzK-X3oX5jAGPJr6WBwi_d0YGGCDQkWYPsEBYclpBdt0D_bR_ASli_XMBC https://lh4.googleusercontent.com/5WvwRHrb-pNf4Xn_LxEKTIjWQircqZX0g1zDqOVmKj20xeh7rIypVzKgp5HKdmt_VmQ4aM2f8Ux7Hp4bpK_MkLk3tZZ1yOxVBXagyHYouYScHq3fAZ-v0B2856hwsZk</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.8640881,40.8084823,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Original Western Coast of Manhattan</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/cVNnIvFFo1JdmCU7pXDNJU0wrY0NGk0Z46lBreY5qLNqpVcqozvX2tIWmrzjWfGJIpuvGWcWKRD5_a4zPSVNdRaPTdk1yENmkDcPsH6T8cnz46GG60_5bcQ7WZYm0a02" height="200" width="auto" /><br><br>As we can see in this map from 1766, Manhattan ended only one block west of Broadway. Trinity Church is pictured on this map but several street names have changed. On this map we already see an indication that colonists were planning to build land into the Hudson River ("Western Boundaries" bracketed on the map).<br><br>- Chloe]]></description>
+			<styleUrl>#icon-1899-097138</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/cVNnIvFFo1JdmCU7pXDNJU0wrY0NGk0Z46lBreY5qLNqpVcqozvX2tIWmrzjWfGJIpuvGWcWKRD5_a4zPSVNdRaPTdk1yENmkDcPsH6T8cnz46GG60_5bcQ7WZYm0a02</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.01049380000001,40.7115161,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>1766 Coastal Boundaries of Red Hook</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/51UPM36uy7pNh7sKZYYKe9N3QAKSwPshDShi9pcNB_Vs_1ZapylBiv825CJVbIePYgbVlJDD6wt61PX4-onf2aZe3RcZ5MsohHjJrQu4Ej08mD8g-hIfOxtIhw2YKb2HPw" height="200" width="auto" /><br><br>These maps shows the original marshy ecology of the Red Hook area. The first image is from 1766 (reprinted 1874), where Red Hook is basically an island, and the second image is from a 1780s map showing fortifications from the Revolutionary War. Many developments, like the Columbia street pier, are visible on this map from 1889, while others, like the Gowanus Bay Terminal, were developed even later. I lived in the Gowanus Bay Terminal, an industrial site where the Gowanus Canal empties out into the bay, for two months. The Gowanus Canal is a Superfund site and is considered highly toxic, and living and working in this area with industrial waste, polluted water, and lead paint caused several health problems for me and my neighbors. <br><br>- Chloe<br><br><img src="https://lh4.googleusercontent.com/PJA6vxH3jnzO-HRGXi7KOEMZloeeBbVWolt2oAE86776ETvwJS3fz-YT-YAp1BNC5RvUl1i7dxFhoEUXme0HK8qL5Gitcnp2-f2Ie23psK5_bloAq4MsDhLxo7WXadM_rQ" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/e4sLMifggTgqg5D2ElGjnOM4aumroftleQXs_yputxn6v6yKPPnBM_5Pz_V0kGmHyioCN5y6GKxaco4pb_1kRxNFTiiUbwFbJXqsKR5onvNyl9PHPy9etXhetrfSrOw" height="200" width="auto" /><br><br><img src="https://lh6.googleusercontent.com/jeUabGMGedb-axIGMCH77BzKH2Bf8IJzRMn5z6M9_VFMgq08AMh9DKH4STVW_s0RCfsdYLJ34_yKEhOsdKij58YDAgztPzxoJIYowZmsJ-CZCUydcMX0eXdTVDtPKhyl" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-097138</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/51UPM36uy7pNh7sKZYYKe9N3QAKSwPshDShi9pcNB_Vs_1ZapylBiv825CJVbIePYgbVlJDD6wt61PX4-onf2aZe3RcZ5MsohHjJrQu4Ej08mD8g-hIfOxtIhw2YKb2HPw https://lh4.googleusercontent.com/PJA6vxH3jnzO-HRGXi7KOEMZloeeBbVWolt2oAE86776ETvwJS3fz-YT-YAp1BNC5RvUl1i7dxFhoEUXme0HK8qL5Gitcnp2-f2Ie23psK5_bloAq4MsDhLxo7WXadM_rQ https://lh3.googleusercontent.com/e4sLMifggTgqg5D2ElGjnOM4aumroftleQXs_yputxn6v6yKPPnBM_5Pz_V0kGmHyioCN5y6GKxaco4pb_1kRxNFTiiUbwFbJXqsKR5onvNyl9PHPy9etXhetrfSrOw https://lh6.googleusercontent.com/jeUabGMGedb-axIGMCH77BzKH2Bf8IJzRMn5z6M9_VFMgq08AMh9DKH4STVW_s0RCfsdYLJ34_yKEhOsdKij58YDAgztPzxoJIYowZmsJ-CZCUydcMX0eXdTVDtPKhyl</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0093565,40.6698648,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>North River Wastewater Treatment Plant</name>
+			<description><![CDATA[The effects of environmental racism are alive and well in New York City - on the outskirts of this brand new park facility, the wastewater treatment plant has been spilling tainted overflow into the Hudson and polluting the air in Harlem for decades. Harlem has one of the worst childhood asthma rates in the city - another contending neighborhood is Chinatown, whose kids have to contend with a high volume of truck traffic and pollution. Why are these sites located in these communities? <br><br>- Chloe]]></description>
+			<styleUrl>#icon-1899-097138</styleUrl>
+			<Point>
+				<coordinates>-73.9538187,40.8275549,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Poster Project - Coastal Life</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/6vvT9Gd4FPs6NXnkl4-OJJZBznOJjQTROOggKI5GssnjQT5CmmqhsLvN9NzoWVoo7PpJToRpSbpsavaQi7MJZRm75MKJRveREpaKTcNhICNO0GS-4t9FiExtW98EvkAJ" height="200" width="auto" /><br><br>this installment of my poster project deals with the pockets of nature that still thrive in New York City and the threats they face from climate change and exploitative development. I was inspired by seeing this notation of 'shell reef' here in the East River, where I frequently come to find some peaceful alone time. Many residents of the Lower East Side, like myself, know about its history as a hub of counterculture, so I was curious to explore its natural history as swampland and then farmland, as evinced by these maps from the 1800s. <br><br><img src="https://lh6.googleusercontent.com/oWh3Jrt5DPHVsIXhf0CT0J26pEbJLAKQc7mGd1i0BeOdBi7uxT2jfeEJwFKwdiq5BWKWBNVGQOtC1ptrTp3GyLvWOnL1nrClyiV6ECDt3dm4W1Gdz4n60Tp8O0dMQw" height="200" width="auto" /><br><br><img src="https://lh5.googleusercontent.com/W8U1OPkiCFJwhbICdQ3o7dV693lpgczf0VuTXc8ZqaZivS2mkSwJPOU5FGeajL4GHUGzUNWUSrFrGvDq66k5euwnnYs2gJQY5gFErwltiQJyKjFVL5JZDePoJplPm_TW" height="200" width="auto" /><br><br><img src="https://lh4.googleusercontent.com/tyPms5b7JMDG1lXyy-AFIeUU_JBMnvV3n_xy2sgaCuaANFBVDYWs63-jm0iOplRPqTXSmhLBiNec22JICnCwYuLcF7LnubjfZCOjFHof0INDbuGRhV99bAlr_jZO6bs" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-0F9D58</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/6vvT9Gd4FPs6NXnkl4-OJJZBznOJjQTROOggKI5GssnjQT5CmmqhsLvN9NzoWVoo7PpJToRpSbpsavaQi7MJZRm75MKJRveREpaKTcNhICNO0GS-4t9FiExtW98EvkAJ https://lh6.googleusercontent.com/oWh3Jrt5DPHVsIXhf0CT0J26pEbJLAKQc7mGd1i0BeOdBi7uxT2jfeEJwFKwdiq5BWKWBNVGQOtC1ptrTp3GyLvWOnL1nrClyiV6ECDt3dm4W1Gdz4n60Tp8O0dMQw https://lh5.googleusercontent.com/W8U1OPkiCFJwhbICdQ3o7dV693lpgczf0VuTXc8ZqaZivS2mkSwJPOU5FGeajL4GHUGzUNWUSrFrGvDq66k5euwnnYs2gJQY5gFErwltiQJyKjFVL5JZDePoJplPm_TW https://lh4.googleusercontent.com/tyPms5b7JMDG1lXyy-AFIeUU_JBMnvV3n_xy2sgaCuaANFBVDYWs63-jm0iOplRPqTXSmhLBiNec22JICnCwYuLcF7LnubjfZCOjFHof0INDbuGRhV99bAlr_jZO6bs</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9733505,40.7236487,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Poster Project - Water is a Right</name>
+			<description>This installment of my poster project deals with struggles over fresh water, from Collect Pond and the history of drinking water in Manhattan to struggles led by Indigenous and Black activists over clean water in Standing Rock, Hawai&apos;i, and Flint.</description>
+			<styleUrl>#icon-1899-0F9D58</styleUrl>
+			<Point>
+				<coordinates>-74.0018463,40.7163304,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>A friend&apos;s house (Daniel)</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/XT1SinhwVCzhUUeliaQvnNCeR3SpereF3yhboKCL_EOHGrKMQsN89kTVevetvXaP2id3e13PIfXJLlKBCs5p_qMNe5nneSnVwrpWMRpstm7mz0rRm_HUIUPfCN7oMHE" height="200" width="auto" /><br><br>My connection with this location is this is where my friend lives and it’s the same spot my friends and I would hang out after school. We would generally play games, and among one of the games was this game called Civilization 5. The point of the game is to create a civilization and do whatever one wanted to it, such as defeating other civilizations or prospering on their own. One of the civilizations one can build is the Iroquois, or more properly the Haudenosaunee. Nowadays the nation is known as one of the Six Nations including the Mohawk, Onondaga, Oneida, Cayuga, Seneca, and Tuscarora.]]></description>
+			<styleUrl>#icon-1899-BDBDBD</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/XT1SinhwVCzhUUeliaQvnNCeR3SpereF3yhboKCL_EOHGrKMQsN89kTVevetvXaP2id3e13PIfXJLlKBCs5p_qMNe5nneSnVwrpWMRpstm7mz0rRm_HUIUPfCN7oMHE</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.96712239999999,40.7651933,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Home (Daniel)</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/CreJV8pfJ97RITcTqarjdRUChnFdG4vY1VKF0ccU_CWSxK5219IP8zkBD_duw0B9DSsfT9aXSCCBPmfX3QiOqYcxc1JRNDHvRldt21ZAk9T1muOb6E5FANNYvzTB7BvD" height="200" width="auto" /><br><br>This is where I used to live during high school and in the summer in between college. I did a bit of research through The Welikia Project and other sources and found out that this spot was part of the river just 400 years ago. That had me thinking about what I spent my time in that area doing vs. what people did 400 years ago before the colonists came. I spent my time playing video games at home and bonding with friends over video games. However, 400 years ago, this was part of the river, so it was a large fishing spot for the Lenape. It had me imagining what kinds of games they played with the resources they had and the setting they were in. While their setting was lush and full of life, mine was highly populated and very grey. Many of the resources they had do not exist in that spot today and vice versa, so it has me thinking about the impact setting has on games played.]]></description>
+			<styleUrl>#icon-1899-BDBDBD</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/CreJV8pfJ97RITcTqarjdRUChnFdG4vY1VKF0ccU_CWSxK5219IP8zkBD_duw0B9DSsfT9aXSCCBPmfX3QiOqYcxc1JRNDHvRldt21ZAk9T1muOb6E5FANNYvzTB7BvD</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0162069,40.716493,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tititipanatuwanagi (Daniel)</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/HlL_9SlGdTu4J5BdzzIfmMZFt7ZX01gP8uQM2hKo9YswN7-wLreH7TX_VeEhJkY_n3L-GqciWjrKp2dqVQmuV20_HysGYHWJA7CV6OlXV7gPHEJpNeBsDSKEF15N-Pu8" height="200" width="auto" /><br><br>Tititipanatuwanagi is a game played by the Lenape (and similar, if not the same, versions of this exists among other Native nations). The game requires a few players, the resources to create a hoop and spear, and a setting that allows for a hoop to be in motion. The player throws a spear through a moving hoop and whoever stops the hoop by throwing the spear within the perimeter of the hoop wins the game. I'd like to think the Inwood Hill Park would be a good location for this game, because there is plenty of open space. Not to mention, this was a popular trading (and fishing) spot for the Lenapehoking and other groups they were in contact with. I'd like to think they played this game with other nations. Similar games exist throughout Native groups in the Americas, such as "Chunkey" or "Chunkee" in the Cherokee Nation. Chunkey is similar, in that there is always a hoop to be rolled and always a spear to be thrown, but the independent variables are how long the hoops are rolled for and how the winner is determined.  https://centerofthewest.org/2014/06/14/treasures-plains-indian-game-hoop-arrows/                 http://www.cherokee.org/AboutTheNation/Culture/General/Chunkey.aspx<br><br><img src="https://lh3.googleusercontent.com/qDBMv8Y2FDpS15CJPpKOiyhowf_cjvBkJsak-yOcyVUeWwqFf-Vs2ojQq-3zEl5tuJePG4rw0_gCC0bWbsc50jcygVN_dwn6TdL5CKZ6M9PFZiDkp9SZCxW-mmVLa9_5" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-BDBDBD</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/HlL_9SlGdTu4J5BdzzIfmMZFt7ZX01gP8uQM2hKo9YswN7-wLreH7TX_VeEhJkY_n3L-GqciWjrKp2dqVQmuV20_HysGYHWJA7CV6OlXV7gPHEJpNeBsDSKEF15N-Pu8 https://lh3.googleusercontent.com/qDBMv8Y2FDpS15CJPpKOiyhowf_cjvBkJsak-yOcyVUeWwqFf-Vs2ojQq-3zEl5tuJePG4rw0_gCC0bWbsc50jcygVN_dwn6TdL5CKZ6M9PFZiDkp9SZCxW-mmVLa9_5</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.92557499999999,40.8701218,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hudson Canyon in the New York Bight (Dominique)</name>
+			<description><![CDATA[Hudson Canyon is the largest canyon off the Atlantic Coast of the U.S. and one of the largest submarine canyons in the world. The grand scale and diverse structure of the Canyon make it an ecological hotspot for a vast array of marine wildlife including deep sea corals, sharks and other fish, whales, turtles, and seabirds. <br><br>The Canyon directly supports the local economy: these productive waters and habitats are essential to this marine wildlife, as well as the fish and invertebrates that our commercial and recreational fisheries depend on. It is also important to recreational divers, the tourism industry, shipping, and deep sea cables, which are critical for connecting New York and New Jersey to the rest of the world. <br><br>Activists are trying to protect the Canyon and its resources for future generations, and to permanently protect against it oil, gas, and mineral exploration and extraction by nominating it as a National Marine Sanctuary. For more information, please visit the Wildlife Conservation Society at https://www.wcs.org/our-work/regions/new-york-seascape]]></description>
+			<styleUrl>#icon-1899-097138</styleUrl>
+			<Point>
+				<coordinates>-73.3200073,40.3151375,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Indigenous Activism / Indigenous Futures</name>
+		<Placemark>
+			<name>Flood Wall Street- 100 Centre St</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/bnt-R_9d5afrElf06OCTVx4o1uI_vB7dthA3Iu6p3vfsowCFH-SQjyAgSulpI3cy-yjc_R08jqJkm4w9qHdnOUuRT8eKUzjDbcEywNsB7wd2IoWfnlGM2Ps1p1X7Nlc_cQ" height="200" width="auto" /><br><br>"Decolonize the water, decolonize the land. We're changing up the system, we're changing up the plan." Ten arrested at Flood Wall Street pled not guilty and went to trial. The ten, represented by Marty Stolar and Jonathan Wallace, were found not guilty. The precedent setting case has been used for future environmental actions involving civil disobedience. http://occupywallstreet.net/story/new-legal-precedent-may-have-been-set-during-trial-new-york-climate-change-activists]]></description>
+			<styleUrl>#icon-1899-A52714</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/bnt-R_9d5afrElf06OCTVx4o1uI_vB7dthA3Iu6p3vfsowCFH-SQjyAgSulpI3cy-yjc_R08jqJkm4w9qHdnOUuRT8eKUzjDbcEywNsB7wd2IoWfnlGM2Ps1p1X7Nlc_cQ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0009817,40.7160474,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hōkūleʻa</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/J9DZlATmvmoODz-5MwhbcShlXU5IYj0glg3-6Q349eKvLH-OLR_cIh504Wn29Uic35rywBg_6nvyiO7-KsyvUNWd2rlON25IPx-u-xphuW9ZRbL5kBolFQyI2gnPzfoJ" height="200" width="auto" /><br><br>The Mālama Honua Worldwide Voyage brought the Hōkūleʻa voyaging canoe to New York City. The arrival of the Hōkūleʻa was honored with a traditional ceremonial welcome by many indigenous nations including: the Ramapough Lenape Nation, Moraviantown Delaware Nation, Shinnecock, Unkechaug, Mohegan, and the Haudenosaunee Confederacy.]]></description>
+			<styleUrl>#icon-1899-A52714</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/J9DZlATmvmoODz-5MwhbcShlXU5IYj0glg3-6Q349eKvLH-OLR_cIh504Wn29Uic35rywBg_6nvyiO7-KsyvUNWd2rlON25IPx-u-xphuW9ZRbL5kBolFQyI2gnPzfoJ</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0171778,40.7130369,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Whitney Museum of American Art</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/JwuH6MZjLNmeR9Mci8_5C95oxxEopt9f3xzJtpYnwvXVi_xehJlq15tnZq7JSubRcU51UBEJ_UuyQZ29rZHMNIebsNx3rKvm3Go7VXqaB466ystvuSant5NSNfzjakGs" height="200" width="auto" /><br><br>A Spectra pipeline transports fracked gas into a vault beneath the museum. Whitney Pipeline protesters point out that as an institution housing art, the Whitney is putting a public good at risk- and Spectra is putting New Yorkers at risk. A 2015 protest invited a dialogue between the museum and environmental activists. <br><br>Fischer.noah@gmail.com. "Whitney Pipeline." Gas Pipeline Under the New Whitney Museum. Occupy Museums, Sane Energy Project, 2015. Web. 12 Oct. 2016.<br><br>Vartanian, Hrag. "Art Protest Groups Join Forces for Guerrilla Ribbon-cutting at New Whitney Museum." Hyperallergic. Hyperallergic Media Inc., 19 Apr. 2015. Web. 12 Nov. 2016.<br><br>-Avi<br><br><img src="https://lh6.googleusercontent.com/9zpA_C79hI3j_YhT90XHHK3PZWC8lC0JRYyKZNk-Y3U_Ea_2W3ozdrQRFkgdiqInXbc_k7_NmvYb9_YMqVYc4R1WgSeP0zDNZwqvqGQCeY6hvEAM8f9T6gFsmlY7muzo" height="200" width="auto" /><br><br><img src="https://lh6.googleusercontent.com/TtEBFhmxwltZgOMA0xYpvGFFIBUiQydu6IQoYWgrqxFy9PT32bs5_wz9KN-ScH0MI9lHBZYD5C5xBaj57HxV1lNEyMw-HrMpbQveQLQem2nK_UjlIwdizRmcleCAWem1" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-A52714</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh6.googleusercontent.com/JwuH6MZjLNmeR9Mci8_5C95oxxEopt9f3xzJtpYnwvXVi_xehJlq15tnZq7JSubRcU51UBEJ_UuyQZ29rZHMNIebsNx3rKvm3Go7VXqaB466ystvuSant5NSNfzjakGs https://lh6.googleusercontent.com/9zpA_C79hI3j_YhT90XHHK3PZWC8lC0JRYyKZNk-Y3U_Ea_2W3ozdrQRFkgdiqInXbc_k7_NmvYb9_YMqVYc4R1WgSeP0zDNZwqvqGQCeY6hvEAM8f9T6gFsmlY7muzo https://lh6.googleusercontent.com/TtEBFhmxwltZgOMA0xYpvGFFIBUiQydu6IQoYWgrqxFy9PT32bs5_wz9KN-ScH0MI9lHBZYD5C5xBaj57HxV1lNEyMw-HrMpbQveQLQem2nK_UjlIwdizRmcleCAWem1</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0088629,40.7395877,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hillary Clinton 2016 Presidential Campaign HQ</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/mFAuk5I9GomakUpcufA0JxZhMoQvpV7nhxB32rmsgr04GHPMmtceuIYks2skqn73O3lgUQib4667bFXt-Nf5diaEoJvfxjJZbegMkdtnGHH91C4o-w18mIerYc-sNVYp" height="200" width="auto" /><br><br>On October 27th, 2016, young indigenous activists flooded 2016 presidential candidate Hillary Clinton's campaign headquarters in Brooklyn to demand she oppose the Dakota Access pipeline.<br><br>https://twitter.com/democracynow/status/791709914091626496/photo/1?ref_src=twsrc%5Etfw]]></description>
+			<styleUrl>#icon-1899-A52714</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/mFAuk5I9GomakUpcufA0JxZhMoQvpV7nhxB32rmsgr04GHPMmtceuIYks2skqn73O3lgUQib4667bFXt-Nf5diaEoJvfxjJZbegMkdtnGHH91C4o-w18mIerYc-sNVYp</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9913372,40.6952502,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ellis Island</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/4VgRWt0nUiEzMm17f_MO-lBFBplsrET9cc0c5ptgzeX2h9llIry9gSXeI-_Wh8vEGwp_G7W8-lBR0C90Az13T8oqS_c75UEo6WqYpvHSiQEUnfSBR892DxVpe3_pZOWN" height="200" width="auto" /><br><br>In 1970, indigenous activists attempted to occupy Ellis Island, which was at the time abandoned by the state. The occupation was a continuation of the red power actions being taken across the country, in places like Alcatraz and Wounded Knee. The activists' boat malfunctioned and they never reached the island, but their attempt prompted the Coast Guard to go on alert and patrol the island, anticipating intervention. In a press conference, Shoshone activist John White Fox stated that “There is no place for Indians to assemble and carry on tribal life here in this white man’s city.” Ellis Island was known by indigenous people in the area as Kioshk, Or "Gull Island." Very little is known about this island's history before colonial settlement, and little is known about this reclamation attempt. <br>Who were these activists? How was the action planned, what other work did they do? <br><br>Nigro, Carmen. "Occupying Ellis Island: Protests In the Years Between Immigration Station and National Park." NYPL. The New York Public Library, 13 July 2015. Web. 20 Dec. 2015.<br><br>-Avi]]></description>
+			<styleUrl>#icon-1899-A52714</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/4VgRWt0nUiEzMm17f_MO-lBFBplsrET9cc0c5ptgzeX2h9llIry9gSXeI-_Wh8vEGwp_G7W8-lBR0C90Az13T8oqS_c75UEo6WqYpvHSiQEUnfSBR892DxVpe3_pZOWN</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0418434,40.6991861,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Indigenous Peoples Day Celebration 2016</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/d_jDTu6ASNc5YhwluYYYLgZiBiHEUdvF5uuLAd45JPKki277E49UTcK0xn-Hk5eYN9tn_YmNQO9b7Q11fX971vyxuSr10AAxkEGe_GjqSTw9YprM8FoKxrGDslI-ote0" height="200" width="auto" /><br><br>Randall's Island Field 63 was home to an Indigenous Peoples Day celebration in 2015 and 2016, a holiday meant to counteract the colonial Columbus Day.<br><br>The celebration was marked by a traditional Pow-Wow with dancing, food, and various indigenous vendor booths.]]></description>
+			<styleUrl>#icon-1899-A52714</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/d_jDTu6ASNc5YhwluYYYLgZiBiHEUdvF5uuLAd45JPKki277E49UTcK0xn-Hk5eYN9tn_YmNQO9b7Q11fX971vyxuSr10AAxkEGe_GjqSTw9YprM8FoKxrGDslI-ote0</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9252532,40.7840591,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>39 Eldridge St</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/qJ12As8HrFZeqhxI6kiBWb7qNuLcEzd241hx6_Z5UQBG0AsUp1IkjSlj1ChM8zqpb_iuNpdCdsHT4YMe76qKXAANXKvf4kSoRZpkDf0ee3z4uDBxj8lWyJ2odNXW4PmW" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1899-A52714</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/qJ12As8HrFZeqhxI6kiBWb7qNuLcEzd241hx6_Z5UQBG0AsUp1IkjSlj1ChM8zqpb_iuNpdCdsHT4YMe76qKXAANXKvf4kSoRZpkDf0ee3z4uDBxj8lWyJ2odNXW4PmW</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9934866,40.7157326,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Theodore Roosevelt Statue</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/54DjaJDOXk89X2r0Mnaua9mJWot0Znfm69gJ5Rgkp7zmVyImkX49jqTPRZZPMnYMwbQOhZqkHuYqkgf1Ly9d6pCV9Jt2IGutjBrZMMhg3uZLYiIHjRQ8sXZWbs20vj4y" height="200" width="auto" /><br><br>This racist statue, depicting the heroic white President Theodore Roosevelt in hieratic scale, riding a horse alongside a smaller Native man and a smaller African man, was shrouded in dishonor of Columbus Day and colonial imagery. <br><br>http://www.villagevoice.com/news/in-dishonor-of-columbus-day-protesters-shroud-obscenely-racist-statue-at-amnh-9210220<br><br>--Jonathan<br><br><img src="https://lh3.googleusercontent.com/gU_5h2Cz1xBEP89-7kIvgwZZiO9mwWsHjcqIgaKQ-CPpfW2g9GSNBFCx_PF69pqNGEModMTWvVSqhxQNi79rAIJzKIHiTg3axxjpls0NukYWxGh3jhxKK6eLhsRGDaho" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/H8TL5HxVe5WC3cpzn-BUzYhrmTNkZa6YxlCry9lVm08hI3nZ8RlCsPxXT2N14AJM1KeM3TZ3VjRMnld1AkvfAUUA8RmYwyIrUBc0QKVZ-Tka31rl5sbpeOv48LzoGwDQ" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/fedLzNMiR69nxnIcMBnDs1bxYxuMNc-9OicfBSWU2LWEydg_NR7ToMzvtNeL-aTdPC-bMWN_w-fdYubmGJZULv2M_GzQSZ3jweV-tIeBHGMFAfhDM6vxr9jM8QnzXG4" height="200" width="auto" /><br><br><img src="https://lh6.googleusercontent.com/pvG3z_brinZ2CNqnd2PyKDteccqmBx_AreVsWI9SbbzZuSNOwfKbOdKAwaz2HJTuZLCZzzDkBDqMf5xpKjQj2WBjZ-mv0dusYqgV5r3s0WYD-kZMUkEVwn6hAY1M7K73" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-A52714</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/54DjaJDOXk89X2r0Mnaua9mJWot0Znfm69gJ5Rgkp7zmVyImkX49jqTPRZZPMnYMwbQOhZqkHuYqkgf1Ly9d6pCV9Jt2IGutjBrZMMhg3uZLYiIHjRQ8sXZWbs20vj4y https://lh3.googleusercontent.com/gU_5h2Cz1xBEP89-7kIvgwZZiO9mwWsHjcqIgaKQ-CPpfW2g9GSNBFCx_PF69pqNGEModMTWvVSqhxQNi79rAIJzKIHiTg3axxjpls0NukYWxGh3jhxKK6eLhsRGDaho https://lh3.googleusercontent.com/H8TL5HxVe5WC3cpzn-BUzYhrmTNkZa6YxlCry9lVm08hI3nZ8RlCsPxXT2N14AJM1KeM3TZ3VjRMnld1AkvfAUUA8RmYwyIrUBc0QKVZ-Tka31rl5sbpeOv48LzoGwDQ https://lh3.googleusercontent.com/fedLzNMiR69nxnIcMBnDs1bxYxuMNc-9OicfBSWU2LWEydg_NR7ToMzvtNeL-aTdPC-bMWN_w-fdYubmGJZULv2M_GzQSZ3jweV-tIeBHGMFAfhDM6vxr9jM8QnzXG4 https://lh6.googleusercontent.com/pvG3z_brinZ2CNqnd2PyKDteccqmBx_AreVsWI9SbbzZuSNOwfKbOdKAwaz2HJTuZLCZzzDkBDqMf5xpKjQj2WBjZ-mv0dusYqgV5r3s0WYD-kZMUkEVwn6hAY1M7K73</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9726907,40.7807202,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Decolonize this Place / Artists Space</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/FJHP-DWXEU8I9RPcmdarUTYz9RIxBvoHF7mz5S5EO1ChBuKXlmgg-_LAy9OASYx586h5srBz1U9vIX0MaG34fXbeY5oT-zsGCwtslmtQCiESqoCaNh9uvpMw_n7vioTB2g" height="200" width="auto" /><br><br>Exhibit which ran from September 17 to December 17, 2016.<br><br>Organized by the collective MTL+ at the invitation of Common Practice New York, Decolonize This Place will convert Artists Space Books & Talks into a shared resource for art, research and organizing. <br><br>At the core of its process is a weekly program of public events, with collaborators from across the five boroughs anchoring assemblies, trainings, skillshares, readings, screenings, meals, and healing sessions. <br><br>The program of outward- and inward-facing events will center five lines of political inquiry, namely Indigenous Struggle, Black Liberation, Free Palestine, Global Wage Workers, and De-Gentrification. Different communities will be in dialogue through the space, establishing ties between groups that tend to converge around single issues. Moving beyond politics that rely upon loose definitions of commonality, Decolonize This Place seeks instead to mobilize complex differences to decenter whiteness and repatriate land.<br><br>Decolonize This Place will prioritize the presence and work of people of color and will be inclusive of queer, immigrant, and disabled participants—challenging the white supremacy that continues to characterize the economies and institutions of art.<br><br>The project will be grounded in the in-house production of posters, banners, t-shirts and other artworks, with a print station providing the means to make zines and publications. Artworks produced will be displayed in the gallery and strategically used in actions across New York, collapsing a feedback loop between exhibition and demonstration. Through this, 55 Walker Street will be coded as a site of continuous social and aesthetic production that feeds directly into movements across the city. A kitchen and greenhouse will root the project in a politics based on abundance, in an attempt to depart from an economic schema that emphasizes scarcity.<br><br>Just as Artists Space itself is transformed into a self-regulated commons, Decolonize This Place will “strike art” to “liberate art from itself”—in the words of MTL+ member Nitasha Dhillon: “not to end art, but to unleash its powers of direct action and radical imagination.” The fluid intersection between grassroots organizing and creative activism is key to this process. When communities make artworks, and artists become organizers, usual hierarchies of artistic production fall apart. <br><br>Through its three-month duration, Decolonize This Place will question how the alternative arts organization, pressured to justify ever-escalating real estate values, can re-interpret its traditional function as holdout within an art world increasingly quarried for ultra-luxury assets. At a time when so many neighborhoods see art crudely utilized to drive gentrification, what further models of community engagement can nonprofit institutions devise? <br><br>A website with further information, documentation and a calendar of daily activities can be found at www.decolonizethisplace.org.<br><br>#decolonizethisplace<br><br>--Jonathan]]></description>
+			<styleUrl>#icon-1899-A52714</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/FJHP-DWXEU8I9RPcmdarUTYz9RIxBvoHF7mz5S5EO1ChBuKXlmgg-_LAy9OASYx586h5srBz1U9vIX0MaG34fXbeY5oT-zsGCwtslmtQCiESqoCaNh9uvpMw_n7vioTB2g</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.00336900000001,40.718799,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>American Museum of Natural History</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/c80TGpEDHB1zjYG1LgaeDIWusbJCPzRWyBy2IxIs1T_8D-TihF1uJNNKJNpMITxfs2toIPQQswBJUKulZYCsDf0SWCyeVSz1711oSwMW7byPCyVtdkiqzk5HvKrT8_91" height="200" width="auto" /><br><br>List of Demands from groups protesting the Museum of Natural History on Indigenous Peoples Day, 2016.<br><br>http://decolonizethisplace.org/post/rename-the-day-remove-the-statue-decolonize-this-museum<br><br>--Jonathan]]></description>
+			<styleUrl>#icon-1899-A52714</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/c80TGpEDHB1zjYG1LgaeDIWusbJCPzRWyBy2IxIs1T_8D-TihF1uJNNKJNpMITxfs2toIPQQswBJUKulZYCsDf0SWCyeVSz1711oSwMW7byPCyVtdkiqzk5HvKrT8_91</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.97398819999999,40.7813241,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>#NODAPL Protest at Army Corps of Engineers Headquarters, Nov 15 2016</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/95ARRDG4R0nZm8xuQdivgw1JxIHATAFxfWqgMaIfa8BO8gceEq6jgTabtlPr3CkgTBb7VLC8uEw0tkwTD639MRbLIki9uAULf2b3wjpZuV6tEcpPNMokHMRGD2qbL3w" height="200" width="auto" /><br><br>Our class attended a direct action and rally on November 15th designed to pressure the Army Corps of Engineers not to permit the Dakota Access Pipeline to pass through the Standing Rock Sioux's sacred lands. Speakers included Native activists who traveled from the Sacred Stone camp, anti-pipeline activists from New York, and labor and religious leaders, among others, in a show of solidarity. <br><br>- Chloe]]></description>
+			<styleUrl>#icon-1899-A52714</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/95ARRDG4R0nZm8xuQdivgw1JxIHATAFxfWqgMaIfa8BO8gceEq6jgTabtlPr3CkgTBb7VLC8uEw0tkwTD639MRbLIki9uAULf2b3wjpZuV6tEcpPNMokHMRGD2qbL3w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.003123,40.7138908,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>NYU Metrotech (Daniel)</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/16ZFXMKKl-CPhF73L5mKKzqXuhcP4-9fML5gjq728QDAONCkGFJS75YVm7IL9jcBc3uMQmQXyb2z9peqALseQVQP8UYZP8DISgS8EXigkgog7Wh-YnjFXVm3OG4pndcMQw" height="200" width="auto" /><br><br>This is where the game center, game design, and game department at NYU are located. Here students study video games, play them, analyze them, and create them. Classes like Representations in Games discuss the way groups of people and individuals are represented in certain games. One of the games often discussed and admired is Never Alone, a game focusing on an Iñupiaq tale. It was created by Native, in particular Iñupiaq, designers and it was to properly represent their nation, as in video games there is either no representation of Native peoples or there is negative representation.<br><br><img src="https://lh4.googleusercontent.com/IuHE_oRIZPciIgwfsIGCu09FOX8bpxpnngR4Tw79Wtz53PzoOoM-5dN1FnQXBjqR_iuoQZgoGPyl4BLP3Uqlj5SryQ-pwsmLlDEK9iGVe9v_t4kYkDufn1Wu6sZFX8SP" height="200" width="auto" /><br><br><img src="https://lh4.googleusercontent.com/EpiKgWpHqr20IzCoDkV1OI8DN59iihNN8MDGkcgb6Rsq2CkF893gjLWFlbMNAVnF5m27smNcNN1y4xUj_mvhUYi2xShJnGMJ8bE5IQhwAveyHoFLW5BYl9ugpTz0D_8O" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-BDBDBD</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/16ZFXMKKl-CPhF73L5mKKzqXuhcP4-9fML5gjq728QDAONCkGFJS75YVm7IL9jcBc3uMQmQXyb2z9peqALseQVQP8UYZP8DISgS8EXigkgog7Wh-YnjFXVm3OG4pndcMQw https://lh4.googleusercontent.com/IuHE_oRIZPciIgwfsIGCu09FOX8bpxpnngR4Tw79Wtz53PzoOoM-5dN1FnQXBjqR_iuoQZgoGPyl4BLP3Uqlj5SryQ-pwsmLlDEK9iGVe9v_t4kYkDufn1Wu6sZFX8SP https://lh4.googleusercontent.com/EpiKgWpHqr20IzCoDkV1OI8DN59iihNN8MDGkcgb6Rsq2CkF893gjLWFlbMNAVnF5m27smNcNN1y4xUj_mvhUYi2xShJnGMJ8bE5IQhwAveyHoFLW5BYl9ugpTz0D_8O</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9865685,40.6941835,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ehdrigohr (Daniel)</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/vXlviQq-WGAFZlV0nwUIAOVdj340u162DfIC7bZzbxsHE_HcCosNBhTSE1Up0PjfXZVorFML7MLPSqFCwjH72Ry0haRRrMc78Fj6zbEv1l9V105WzuDFRdtnXB3nkng" height="200" width="auto" /><br><br>Ehdrigohr is a role playing game centered around the culture and mythology of many Native American groups. Allen Turner, a black Native American game designer, created Ehdrigohr, which intends to shift the focus away from European concepts and highlight those of Native concepts. This subversive game challenges the norm of mythological games and provides a different play style to role playing games (such as Dungeons and Dragons). I figured a great place to play it would be The Uncommons, a well known coffee / board game shop in the Greenwich Village. On top of this, I think it is important to talk about Native American games as not just games Native Americans played in the pre colonial era, but also as games created by Native Americans, for Native Americans, and including Native American elements. I think to ignore games with Native American influence in contemporary society is a disservice to Native Americans, because it can further perpetuate the notion that Native Americans are in the past. This game, along with many others, ties in with the concept of indigenous futurism and how Indigenous knowledge offers ways of thinking that are overlooked and/or do not exist within prominent spaces of the United States.]]></description>
+			<styleUrl>#icon-1899-BDBDBD</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/vXlviQq-WGAFZlV0nwUIAOVdj340u162DfIC7bZzbxsHE_HcCosNBhTSE1Up0PjfXZVorFML7MLPSqFCwjH72Ry0haRRrMc78Fj6zbEv1l9V105WzuDFRdtnXB3nkng</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.99870540000001,40.7294123,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Historic Lenape Sites</name>
+		<Placemark>
+			<name>Shorakkopoch Rock</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/4Ft_rCCIDK1ozs2m2A52_-JTxFbdrKFR3QFPJLa0NSzSP5r0A7n3WDO0aIWIcEB9jwJqjDxCjC7oUhM35CLjke7rw2seDbqlOB0o_HGZBFCMoAZdYFqnuydjgmZ_0-c" height="200" width="auto" /><br><br>The 1626 sale of Manhattan by the Lenape to Peter Minuit and the Dutch (New York Historical Society, 1939).<br><br><img src="https://lh5.googleusercontent.com/fjma36FRub7iWyZGo2bHCuvpDxUS3AD6T_SeGkGe3WRPtpe8IgYel4JBIyjyD2shHXahj_qPfpc_CsZL_vFfYwEvfZFIHqysm2dvNAqlko4D342uHZJOyCHvR2rdcaKP" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-9C27B0</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/4Ft_rCCIDK1ozs2m2A52_-JTxFbdrKFR3QFPJLa0NSzSP5r0A7n3WDO0aIWIcEB9jwJqjDxCjC7oUhM35CLjke7rw2seDbqlOB0o_HGZBFCMoAZdYFqnuydjgmZ_0-c https://lh5.googleusercontent.com/fjma36FRub7iWyZGo2bHCuvpDxUS3AD6T_SeGkGe3WRPtpe8IgYel4JBIyjyD2shHXahj_qPfpc_CsZL_vFfYwEvfZFIHqysm2dvNAqlko4D342uHZJOyCHvR2rdcaKP</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9237913,40.8733644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Collect Pond Park</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/fwMyUChkV16RiMof9G5aQUplcOWPcuupE3gB-IRGKU0sC8UESY-O4R6vvag2cW8YdtXRi9FgGi2JDZcCKiE2NeahvK3zQwIVixPbHnk0EZjOW2eUyLpqSxvEJ7-vfFjlYA" height="200" width="auto" /><br><br>The historic primary source of water for the Lenape peoples.<br><br>http://lasklick.blogspot.com/2015/07/the-epic-of-new-york-city.html<br><br>--Jonathan]]></description>
+			<styleUrl>#icon-1899-9C27B0</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/fwMyUChkV16RiMof9G5aQUplcOWPcuupE3gB-IRGKU0sC8UESY-O4R6vvag2cW8YdtXRi9FgGi2JDZcCKiE2NeahvK3zQwIVixPbHnk0EZjOW2eUyLpqSxvEJ7-vfFjlYA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0018264,40.7164579,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Alley Pond + Little Neck</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/-Fo2OeqP0RWBkzjbiRSY__-xuHrCuh-DoLhoXsNVJvF_XqKdtuzyLT3tp-O7Va6jWmeENrCF715bcl-TPOIiGXq_Bfx7-yK4kNY6YJqJCmEcJuM7dhNZ_bmbe-Xj6Vf6" height="200" width="auto" /><br><br>My nature guide, Wild New York, calls this the most 'untouched' landscape in New York City. Little Neck used to be such an important site for harvesting shellfish that the term 'littleneck clam' actually comes from here and has nothing to do with the clam's neck or lack thereof. Alley Pond Park is also home to the 'Alley Pond Giant,' a 300 to 400-year-old tulip tree that is generally considered to be the oldest living thing in New York City. [images from Wikiwand]<br><br>- Chloe<br><br><img src="https://lh5.googleusercontent.com/aLxCwFDNNrWkyDg3B1l9Fm5IKcxbVd9XbYrROLBc8aG2Jk2UlNQBP18aRpQgdT7WwdAJQgKXDJkZXip7Yc87dAj3UJjH81vEI4XcfPSXwKrvSVE0NSxP58eGHUjn3BJR" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-9C27B0</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/-Fo2OeqP0RWBkzjbiRSY__-xuHrCuh-DoLhoXsNVJvF_XqKdtuzyLT3tp-O7Va6jWmeENrCF715bcl-TPOIiGXq_Bfx7-yK4kNY6YJqJCmEcJuM7dhNZ_bmbe-Xj6Vf6 https://lh5.googleusercontent.com/aLxCwFDNNrWkyDg3B1l9Fm5IKcxbVd9XbYrROLBc8aG2Jk2UlNQBP18aRpQgdT7WwdAJQgKXDJkZXip7Yc87dAj3UJjH81vEI4XcfPSXwKrvSVE0NSxP58eGHUjn3BJR</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.7469292,40.7603907,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Shorakkopoch Rock</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/lvgofbrwWQw-uz6o2NU01YrxiK2Z_t201Ozwwjk_2KzX01ZMM8mFK5GD1gDT6oUHSjHYktisSnZfEJKIlcEheDVX2UIdKGFixvSVpj2-mjMDN-RcBLIDJPQuzGLMa-WJ" height="200" width="auto" /><br><br>The sale of Manhattan by the Lenape to Peter Minuit and the Dutch in 1626 (Alfred Fredericks, 1926).<br><br><img src="https://lh6.googleusercontent.com/w6a7n9s6vOY_-sadiuJv8BXeiBJskbEdzkLgWDPLh0-0CWzF-3R2qjgFUdYlInXUxPVi-yCEU3mS85u4Vt8tN23MB9aarJtG6X4PHmbW1ZTCpbaU3nd_JUaQulaQABiWJg" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-9C27B0</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/lvgofbrwWQw-uz6o2NU01YrxiK2Z_t201Ozwwjk_2KzX01ZMM8mFK5GD1gDT6oUHSjHYktisSnZfEJKIlcEheDVX2UIdKGFixvSVpj2-mjMDN-RcBLIDJPQuzGLMa-WJ https://lh6.googleusercontent.com/w6a7n9s6vOY_-sadiuJv8BXeiBJskbEdzkLgWDPLh0-0CWzF-3R2qjgFUdYlInXUxPVi-yCEU3mS85u4Vt8tN23MB9aarJtG6X4PHmbW1ZTCpbaU3nd_JUaQulaQABiWJg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.923794,40.873375,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Shorakkopoch Rock</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/-d-WU69nTGsibvP9mbwFJ_aPsfi3C1yrA8zaLO1HZdSx_uSL5-AY8nqYZOx4oXF7VTa3kw1g3Q73UQhCpquLAUeCIVL4hvPeHNqe53NZy66Lmk1Qupgw5DreZXGxdTGr" height="200" width="auto" /><br><br>Another depiction of the 1626 sale of Manhattan by the Lenape to Peter Minuit and the Dutch. <br><br>http://redtri.com/new-york/corn-husk-dolls-and-lenape-american-indians/<br><br>--Jonathan Marty]]></description>
+			<styleUrl>#icon-1899-9C27B0</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/-d-WU69nTGsibvP9mbwFJ_aPsfi3C1yrA8zaLO1HZdSx_uSL5-AY8nqYZOx4oXF7VTa3kw1g3Q73UQhCpquLAUeCIVL4hvPeHNqe53NZy66Lmk1Qupgw5DreZXGxdTGr</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9238095,40.8733745,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Native American Caves</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/FQhexG04HMnvhb1IEjytMRPkPIaAu-WaP2Zp9QPZg7pjK8oTpWm-x0WP3wG77bcrjU4qvR675vQeG6SWr0kP_m0k985AL1dgUhb6Nbz4faEMtyDAcOyS0RSJyrFJo_kB" height="200" width="auto" /><br><br>The majestic “Indian caves” of Inwood Hill Park were once used as a seasonal camp by the Lenape people who lived in the region before the arrival of explorer Henry Hudson in 1609.<br><br>http://myinwood.net/the-indian-caves-of-inwood-hill-park/<br><br>--Jonathan]]></description>
+			<styleUrl>#icon-1899-9C27B0</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/FQhexG04HMnvhb1IEjytMRPkPIaAu-WaP2Zp9QPZg7pjK8oTpWm-x0WP3wG77bcrjU4qvR675vQeG6SWr0kP_m0k985AL1dgUhb6Nbz4faEMtyDAcOyS0RSJyrFJo_kB</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.92464560000001,40.8735261,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Collect Pond</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/S5aQCkk_83tMW_3MJnPfp_Fy_w-dZ1esoHomMQzSPfNNgFL6kA2dXXuuk7p16k_0VFmUoEpuC2AxRPHC3kjJn1g3hehBYH8C32h1t4llafKcpUY7pXtO2Y8wHH53E5pf" height="200" width="auto" /><br><br>An 1800 rendering of Collect Pond, the major drinking source for the Lenape for hundreds of years. <br><br>http://lasklick.blogspot.com/2015/07/the-epic-of-new-york-city.html<br><br>--Jonathan]]></description>
+			<styleUrl>#icon-1899-9C27B0</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/S5aQCkk_83tMW_3MJnPfp_Fy_w-dZ1esoHomMQzSPfNNgFL6kA2dXXuuk7p16k_0VFmUoEpuC2AxRPHC3kjJn1g3hehBYH8C32h1t4llafKcpUY7pXtO2Y8wHH53E5pf</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0014601,40.7163141,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Bay Ridge Lenape</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/7awdBzh7Awpm9EZ5cMtmubxfl9A-323gOSWuG-Ij_KWu_892HYh7SI9p2t1hQqfLY-PxyY_rBhBVxqPf3zrZhd1H5inBCitiTKu_tmGEoS-WzRdTiVRGzIL84ZybKmRG" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1899-9C27B0</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/7awdBzh7Awpm9EZ5cMtmubxfl9A-323gOSWuG-Ij_KWu_892HYh7SI9p2t1hQqfLY-PxyY_rBhBVxqPf3zrZhd1H5inBCitiTKu_tmGEoS-WzRdTiVRGzIL84ZybKmRG</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0377665,40.6354828,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Washington Square Park</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/cf86soK8egWs-TO5jdCbFff_P6JPw5dc3gTe7OXa7I3FAn67xoWiwlqzNwHuEjrurs68XpvQc7VLnjNZQP_2CiyOyJnA-Q0gq-6OfZTaNWseW3lct02E95OZhhsZor11-g" height="200" width="auto" /><br><br>Fascinating map depicting the trade routes of various Lower Manhattan Lenape tribes. Note their convergence at what is now Washington Square Park.<br><br>from "New York Natives" by Evan Pritchard.<br><br>--Jonathan]]></description>
+			<styleUrl>#icon-1899-9C27B0</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/cf86soK8egWs-TO5jdCbFff_P6JPw5dc3gTe7OXa7I3FAn67xoWiwlqzNwHuEjrurs68XpvQc7VLnjNZQP_2CiyOyJnA-Q0gq-6OfZTaNWseW3lct02E95OZhhsZor11-g</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.997332,40.7308228,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mind Castle: Madison Square</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/44UuzDauKzWXil8GAOfnOitO3cGVaiqEBhN9lG6uiIbb-xAPtCNBSWmsa7mjxzaUzFLEc5EK3YjzGxPlOq2ajaTUoIL9S5dKSflaImNkWCVpBAdfHDyReFXxfqLvCyvO" height="200" width="auto" /><br><br>The area now occupied by Madison Square Park was a dense forest of maple, cherry, aster, oak and chestnut trees, irrigated by Cedar Creek on the Northeast when the Dutch arrived in 1609. The forest was home to mammals, birds, reptiles, amphibians, and fish of all shapes and sizes. The European settlement on Manhattan was still only at the Southern tip of the island, only extending up to the wall of Wall Street, when the Royal Governor of New York declared that this forest could be used as a public hunting ground in 1686. Many of the indigenous species were hunted for sport: bobcats, mountain lions, black bears, grey wolves, bald eagles; others were hunted for their natural beauty: mink, deer, rabbits, beavers, turtles, river otter among many other species. These animals were so insanely pursued that they were all either killed or killed by the destruction of their habitat or migrated West.<br><br>	In 1795, the yellow fever pandemic spread to New York from Philadelphia. According to historical records of Baruch College: "Upon infection, most victims would experience headaches, followed by severe exhaustion, high fever and slowed heart rate. This period was followed by a remission stage and then by delirium. During the delirium stage, victims acquired a characteristic yellow hue on their skin and pupils. In final stages, a vomiting of black bile occurred and was followed by death.” Most of the thousands of New Yorkers who caught it died within a week of infection. Some bodies were later moved to Washington Square Park, but probably that some remain under the current day reflecting pool at the North end of the park.<br><br>In 1807 the park because a Parade Ground which spanned 239 acres from Third Ave to Seventh Ave and 34th Street down to 23rd. The park was later reduced to 89 acres in 1814 when the park was named after James Madison, and again to it’s current size of 6.2 acres in 1944. <br><br>During this phase of the park’s history it hosted four different memorial arches which were all eventually torn down due to public protest. First in 1889 the George Washington arches were commissioned to celebrate the 100th anniversary of his inauguration on Fifth Ave, one on 23rd Street, on at 26th, as well as the one at Washington Square Park. (see Union Square about the direct translation of the word “President” from the Seneca language). The Dewey Arch was constructed to glorify the Admiral’s victory at Manila Bay in 1898. Across 7th Ave, Madison Square Garden was erected and named because it was adjacent to Madison Square Park in 1899. In 1918 after WWI, the Victory Arch in honor of those New Yorkers who died in battle, but was denounced as wasteful of money and effort by the New York Times.<br><br>It is hard to imagine an expanse of land with such vibrant wildlife like this in Manhattan today. Madison Square Park’s biodiversity today depends solely on the neighborhood dogs and the food served at Shake Shack. Doing my research on this park, I decided that the essence of this particular park is waste. The footprint left by the colonizers has been one of disassociation, disrespect, and irresponsibility. Had the indigenous flora and fauna stayed until today Manhattan would be a National Park. The landscape was poisoned by greed, for sport, but also later on to construct large buildings and monumental arches (which were slapped together quickly to the dismay of the neighborhood.<br><br><br>Timeline<br>http://experiencenomad.com/madison-square-park-swamp-gem/<br><br>Arches<br>http://www.boweryboyshistory.com/2015/06/the-arches-of-madison-square-park.html<br>http://timesmachine.nytimes.com/timesmachine/1919/10/13/118163528.html?pageNumber=15<br>http://timesmachine.nytimes.com/timesmachine/1919/03/26/102856293.html?pageNumber=1<br>http://timesmachine.nytimes.com/timesmachine/1919/03/23/98280331.html?pageNumber=23<br>http://query.nytimes.com/gst/abstract.html?res=9402E0DE1530E132A2575BC0A9669D94689ED7CF<br><br>Flatiron<br>http://1.bp.blogspot.com/-JkuYRvXM0LY/VnMCxct-whI/AAAAAAAB_hw/-4ZJC-2Rgoc/s1600/Flatiron%2BBuilding%2BUnder%2BConstruction%2B%25281%2529.jpg<br>https://s-media-cache-ak0.pinimg.com/736x/9a/f1/47/9af14762c48135f08411569442f04219.jpg<br><br>MetLife<br>http://www.shorpy.com/files/images/4a194580a.jpg<br>http://www.shorpy.com/files/images/01486u3_10.jpg<br>http://www.shorpy.com/files/images/SHORPY-4a23359a.jpg<br><br>Red Maple<br>http://images.freepicturesweb.com/img1/20/09/d/028.jpg<br><br>Flying Squirel<br>https://upload.wikimedia.org/wikipedia/commons/f/ff/Southern_flying_squirrel.jpg<br><br>Bald Eagle<br>http://www.audubon.org/sites/default/files/styles/hero_cover_bird_page/public/Bald_Eagle_KKAPA_2011_19277_151416_RobertBailey.jpg?itok=JGBr9Ope<br><br>Green Heron<br>http://www.ejphoto.com/images_FL/FL_GreenHeron11.jpg<br><br>Mink<br>http://thenorfolkminkproject.org.uk/wp-content/uploads/2015/06/Mink-2.jpg?x73860<br><br>Grey Wolf<br>http://kids.nationalgeographic.com/content/dam/kids/photos/animals/Mammals/A-G/gray-wolf-cubs.jpg<br>http://mediad.publicbroadcasting.net/p/wkar/files/styles/x_large/public/201405/wolf.jpg<br>http://www.skinnymoose.com/bbb/files/2011/12/albertawolf1.jpg]]></description>
+			<styleUrl>#icon-1524-424242</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/44UuzDauKzWXil8GAOfnOitO3cGVaiqEBhN9lG6uiIbb-xAPtCNBSWmsa7mjxzaUzFLEc5EK3YjzGxPlOq2ajaTUoIL9S5dKSflaImNkWCVpBAdfHDyReFXxfqLvCyvO</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9885426,40.7412744,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mind Castle: Union Square</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/85pCMDo4RkgGfzAgUyPOBJVj08y0CvLnJBb2gwvlsHqQcr3dHhEQGIYIgyFe3HpDHdNT6nOf44IkOrdKtQbcB0WB5pjSvD1Y4wldOX9DLRSAXikQjn7_c_KX4kFjqhfS" height="200" width="auto" /><br><br>Union Square was originally a marshland bisected by the Lenape Trail (current Broadway) and the Boston Post Road (current Park Ave.). Much of the native wildlife were small mammals and birds.<br>	Beavers which were common in Manhattan disappeared when their food supply (maple and aster trees) was decimated to make room for the new order.<br>	The mice in the scene, more specifically Meadow Vole (Microbus pennsylvanicus), would have been one of the most common mammals in the Union Square area pre-1906. They are mainly herbivores, subsisting on foliage, fruits, grains, and occasionally smaller mammals and insects. Their most likely predator in this area are beds of prey such as the Sharp-shinned Hawk in the top left (ADW).<br>	The Sharp-shinned Hawks live in densely forested areas like that of Union Square pre-colonization. They is the smallest hawk in North America. Their diet consists of songbirds and mice (The Cornell Lab of Ornithology).<br>	Union Square Park because it was a marsh, was originally used by the colonists as a communal burial ground for “slaves, paupers, and criminals, and for American prisoners during the Revolutionary War”(NYT) under British rule from the 1750s until 1797 when Washington Square Park was purchased to replace Union Square and Madison Square Parks as a potter’s field.<br>	The statue of George Washington was built in 1856 by Henry Kirke Brown. After George Washington was inaugurated in 1789, he began addressing the “Indian Problem,” not wanting to share the fertile land of New England with the native peoples. One of the tactics he used to force the native people out was by destroying their food reserves. Washington sent troops to torch corn fields from dawn to dusk for months, destroying years of food supply. The Seneca word for President came mean “town destroyer” because Washington showed no mercy to the indigenous peoples. Therefore, I have represented George Washington’s statue surrounded by burning corn, while the other figures peacefully go about their lives.<br><br>	In 1928/29 Union Square was demolished during construction of the subway station below, which now serves as a main transportation hub of the entire city.<br><br>Having lived on Union Square for a short while, I associate the park with the beautiful selection of local fruit and vegetables of the weekly market (although I could have walked around and picked my own 400 years ago). Despite having moved away, I go through that subway frequently.<br><br><br>Union Square Park History. <br><https://www.nycgovparks.org/parks/union-square-park/history>.<br>https://www.nps.gov/thrb/learn/historyculture/union-square.htm<br>https://www.nycgovparks.org/parks/union-square-park/monuments/797<br><br>Potter’s Field<br>http://www.nytimes.com/1981/05/25/opinion/potter-s-field-aisle-of-the-dead.html<br>http://www.boweryboyshistory.com/2010/10/i-sit-on-your-grave-new-yorks-hidden.html<br><br>Northern red oak<br>https://cdn.shopify.com/s/files/1/0778/2679/products/northern_red_oak2_1500.jpg?v=1469160604<br><br>George Washington<br>https://upload.wikimedia.org/wikipedia/commons/4/4b/Washington_equestrian_statue_Union_Square.jpg<br><br>Beavers<br>http://7wallpapers.net/wp-content/uploads/2016/06/6_Beaver-min.jpg<br>Mice<br>http://animaldiversity.org/site/accounts/information/Microtus_pennsylvanicus.html<br>https://www.google.com/search?q=mice&espv=2&biw=1503&bih=934&source=lnms&tbm=isch&sa=X&ved=0ahUKEwidlvOxqvzQAhVM5IMKHWW0DQwQ_AUIBigB#imgrc=enjlNWPI-JcFEM%3A<br><br>Map<br>https://ephemeralnewyork.files.wordpress.com/2015/02/bachmannlithographunionsquare.jpg<br>http://www.nyc.gov/html/dep/html/cso_long_term_control_plan/index.shtml<br><br>View<br>https://about.citymaps.com/wp-content/uploads/2012/02/snow.jpg<br><br><br>https://ephemeralnewyork.wordpress.com/2012/10/<br>http://untappedcities.com/2013/07/12/surprise-what-nyc-former-cemeteries-are-now/<br>http://nypost.com/2014/10/25/the-hidden-cemeteries-of-nyc/<br>https://www.amazon.com/Graveyard-Shift-Family-Historians-Cemeteries/dp/0916489892<br><br><br>Market<br>https://hirosdigitalartgallery.files.wordpress.com/2013/12/1100195.jpg<br><br>Corn Fire<br>http://3.bp.blogspot.com/-YlgkYZKTm-c/UGp5TK6V1eI/AAAAAAAAAH4/C6CCtSkET-U/s1600/field+fire+027.JPG<br><br>Sharp-shinned Hawk<br>https://www.allaboutbirds.org/guide/Sharp-shinned_Hawk/id<br>http://www.kevinkarlsonphotography.com/gallery/d/5632-1/Sharp-shinned+Hawk_+juvenile_+New+Jersey_+October.jpg]]></description>
+			<styleUrl>#icon-1571-424242</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/85pCMDo4RkgGfzAgUyPOBJVj08y0CvLnJBb2gwvlsHqQcr3dHhEQGIYIgyFe3HpDHdNT6nOf44IkOrdKtQbcB0WB5pjSvD1Y4wldOX9DLRSAXikQjn7_c_KX4kFjqhfS</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.99060249999999,40.7346734,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Mind Castle: Washington Square</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/0ULzNzu80rzWjoH7-M-gDhvK_AlO1GtQtYVDn-sYeEAu4FwtjP-vGDnj5CkuEkdIwyZ_xS74tqdGa6TEDh9ANkHWRwmqH8nPiQtP72DxXELpVwie2gKw1GZRk2lH0QI" height="200" width="auto" /><br><br>Washington Square Park was originally a fed by the Minetta Brook which I depicted on the map (within close distance of the Lenape settlement at Sapokanikan), and served as a home to various small mammals such as rodents, birds of every shape and size, dozens of turtles and snakes and a few amphibians such as salamanders. In this piece I decided to represent only carnivorous animals (with the exception in the wood duck which eats bugs occasionally).<br>	Under Dutch rule African born slaves were granted freedom and small plots of land (including present day Washington Square Park) if they guaranteed to give a portion of their crops back to the officers of the trading post. However, the lands were taken from them by the British, and sold to wealthy British and Dutch landowners.<br>	In 1797, the City’s Common Council bought Washington Square Park to transform it into a Potter’s Field and execution area to the dismay of the prominent New York residents (among others Alexander Hamilton). The bodies from Madison Square Park and Union Square Park’s Potter’s Fields were moved to this new location.<br>	In 1826, the park became the Washington Parade Ground, which in turn raised the real estate value of the surrounding area, such as Astor Place, and Lafayette between Astor and 4th Street which became the homes of some of the wealthiest New Yorkers of the time.<br>	The history of protests in the park began with a revolt against NYU’s use of prison labor to construct buildings in the surrounding area in 1834."During the Civil War, racial hatred and fear fueled the draft riots of 1863, the bloodiest urban conflict in American history. Troops summoned from Gettysburg camped out in the Square to ensure peace in the vicinity" (WSPConservancy).<br>	The Washington Square Arch was constructed along with those at Madison Square Park to celebrate the 100th anniversary of George Washington’s inauguration in 1889.<br>	On March 25th, 1911, the workers at the Triangle Shirtwaist Factory (current NYU Brown Building) were locked in their work station to insure that they would not leave their posts during work hours. However, a fire broke out and took all 146 lives.<br><br>Washington Square Park History. <https://www.nycgovparks.org/parks/washington-square-park/history>.<br>http://washingtonsquareparkconservancy.org/history/<br><br><br>Bolton, Reginald Pelham. Indian paths in the great metropolis<https://archive.org/details/indianpathsingre00bolt><br><br>Arch<br>https://c2.staticflickr.com/4/3770/9596291984_84f73d438a_b.jpg<br>https://ephemeralnewyork.files.wordpress.com/2012/10/washingtonsquarepark1936.jpg<br>https://s-media-cache-ak0.pinimg.com/originals/fd/7c/9d/fd7c9dc00b2c37db1b3c44d698adc588.jpg<br><br>Marsh<br>http://naturepreserves.ohiodnr.gov/portals/dnap/images/naturepreserves/sheldon/sheldon-3.jpg<br><br><br>Gallows<br>http://img00.deviantart.net/1f07/i/2013/321/5/b/the_gallows_by_aniqeanuk-d6ukirn.jpg<br>https://s-media-cache-ak0.pinimg.com/736x/35/00/4a/35004af5528c1ee01c20e890c4e18bb4.jpg<br><br>Wood Duck<br>https://upload.wikimedia.org/wikipedia/commons/e/e6/Aix_sponsa_(Wood_Duck_-_Brautente)_-_Weltvogelpark_Walsrode_2012-02.jpg<br><br>American Crow<br>http://carolinabirds.org/Daniels/SanDiego/SanDiegoLG/Crow,_American_SanDiego.jpg<br><br>Common Raven<br>http://www.alanmurphyphotography.com/K87/Common-Raven-4.jpg<br><br>Common Snapping Turtle<br>https://upload.wikimedia.org/wikipedia/commons/4/4f/Common_Snapping_Turtle_(Chelydra_serpentina).jpg<br><br>Black Racer<br>https://www.animalcontrolsolutions.com/wildlife-control/wp-content/uploads/2013/04/DSC_0050.jpg<br><br>Redback Salamander<br>http://static.wixstatic.com/media/62c0a2_330015232b6c41bb9edb55c732b25e53.jpg_srz_2998_1999_85_22_0.50_1.20_0.00_jpg_srz<br><br>Chestnut<br>https://www.google.com/search?q=american+chestnut&espv=2&biw=1285&bih=938&site=webhp&source=lnms&tbm=isch&sa=X&sqi=2&ved=0ahUKEwiW_Y6Q6_7QAhXLQSYKHSGJDyEQ_AUIBigB#tbs=isz:l&tbm=isch&q=chestnut+dense+forest&imgrc=YSFUYmnEEaNMJM%3A<br><br>http://ekladata.com/WQOUad3nzQyByCZUIlPwlcE88Rk.jpg]]></description>
+			<styleUrl>#icon-1556-424242</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh6.googleusercontent.com/0ULzNzu80rzWjoH7-M-gDhvK_AlO1GtQtYVDn-sYeEAu4FwtjP-vGDnj5CkuEkdIwyZ_xS74tqdGa6TEDh9ANkHWRwmqH8nPiQtP72DxXELpVwie2gKw1GZRk2lH0QI</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.99691110000001,40.7299906,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Black Girl Temporality (Akiera)</name>
+		<Placemark>
+			<name>Minetta Street (Spice Cake)</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/AIcRkiNGf5lSNyc3UvLdPyaseVZ5BAMZAgZEVYKEq7xLIa8Y5pz7dpsY9C03g8qi9D0QXeGGpzm_wZX8jNbiGYKAg6gYOHMEo7-R3CUXDDxStpmxVM2lkWV-gQrlCWA" height="200" width="auto" /><br><br>Minetta Street <br><br>Time Spent Walking: 1hr 45 minutes <br><br>•	Once upon a time ago this place used to be called “Little Africa.” Listen to me when I tell you that so many black folks had filled its streets. Granny told me recently that it’s strange to see somebody’s pickinaye living on that street now. <br><br>•	I though walking down Fulton Street would get me there faster, but then I realized I did the measurements all-wrong in my head. This time I went back an added two more cups of all-purpose flour, hoping that now I could trace my steps. <br><br>•	I wonder wound there be any sign of you all when I get there. I imagine our encounter tasting, like granny’s spice cake. Often I wonder why it takes so long for her to make it, but recently when I ask her why she said “gyal hush yah mouth and pass me that nutmeg.”<br><br>•	Once nutmeg was added, this meant I was nearing Flushing Avenue. I kept to the right so I would not get lost. <br><br>•	By the time I reached Kent Avenue, her greased 9 x 5 inch loaf pan was already in the oven. I wonder who hunted near these waterways. From where I am standing I could see Manhattaan. The Williamsburg Bridge took me into Lower Manhattaan and by then you used a toothpick to poke at the cake. <br><br>•	I hummed in excitement as the cake was out the oven to cool. Soon I approached Minetta Street, seeing no picknaye in sight.]]></description>
+			<styleUrl>#icon-1899-F9A825</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/AIcRkiNGf5lSNyc3UvLdPyaseVZ5BAMZAgZEVYKEq7xLIa8Y5pz7dpsY9C03g8qi9D0QXeGGpzm_wZX8jNbiGYKAg6gYOHMEo7-R3CUXDDxStpmxVM2lkWV-gQrlCWA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0014309,40.729865,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>227 Duffield Street (Dal Puri Roti Skin)</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/fKUbdO_unOvpkBwVqyuQhmfRVZg2yvsQLLALdaqIRK8XTLiBk0aD9SELUUJRpY4yt65NUcCtl2BQNJuhfavGVX7cmxDSFkzakARi1_8wG1-14nXqmYTEQ1G9-UcTWRLn" height="200" width="auto" /><br><br>227 Duffield Street (Dal Puri Roti Skin)<br><br>Time Spent Walking: 45-59 minutes]]></description>
+			<styleUrl>#icon-1899-F9A825</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/fKUbdO_unOvpkBwVqyuQhmfRVZg2yvsQLLALdaqIRK8XTLiBk0aD9SELUUJRpY4yt65NUcCtl2BQNJuhfavGVX7cmxDSFkzakARi1_8wG1-14nXqmYTEQ1G9-UcTWRLn</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.98410800000001,40.6913,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>South Street Seaport (Oil Down)</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/MdWhyxDY239IwHf7bvYQtEcOCnvjvwsm_h6JhF3M8sLoTR0jO6L1MZY6kYgm142mFgSdinhv_BSOH_M1X6UDlttgiTDV3UepdmiKBl0gEZWdY6bJdieiHQhQ2CtUxb_4" height="200" width="auto" /><br><br>South Street Seaport (Oil Down)<br><br>Time Spent Walking: 1hr 45 minutes]]></description>
+			<styleUrl>#icon-1899-F9A825</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/MdWhyxDY239IwHf7bvYQtEcOCnvjvwsm_h6JhF3M8sLoTR0jO6L1MZY6kYgm142mFgSdinhv_BSOH_M1X6UDlttgiTDV3UepdmiKBl0gEZWdY6bJdieiHQhQ2CtUxb_4</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.00438629999999,40.7068293,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Gansevoort Street (Aloo Pie)</name>
+			<description><![CDATA[Gansevoort Street <br><br>Time Spent Walking: 2hr 11 minutes]]></description>
+			<styleUrl>#icon-1899-F9A825</styleUrl>
+			<Point>
+				<coordinates>-74.00701979999999,40.7396517,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lenape Playground (Steamed Pudding and Souse)</name>
+			<styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+			<Point>
+				<coordinates>-73.9263378,40.6063172,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>9/11 Memorial</name>
+			<styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+			<Point>
+				<coordinates>-74.0131743,40.7116256,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Rikers Island</name>
+			<styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+			<Point>
+				<coordinates>-73.88601,40.7931277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Kingsborough 4th Walk (Fried Bakes)</name>
+			<styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+			<Point>
+				<coordinates>-73.925361,40.6755417,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Trinity Church (Shepherd&apos;s Pie)</name>
+			<styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+			<Point>
+				<coordinates>-74.01218489999999,40.7080624,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>African Burial Ground National Monument</name>
+			<styleUrl>#icon-1899-F9A825-nodesc</styleUrl>
+			<Point>
+				<coordinates>-74.00439729999999,40.7145049,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hunts Point Slave Burial Ground (Black Cake)</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/158-GbJrb9-9xgdeziPdoEYBA7_uc2PxMewo5pksuVX-mk059S-HOW2mWL70Bennhy3_xhv28I0NYpwXeXxvSNX2aTIuldBBiSdLgWxuzYT3gYYDngFTvSh7ZdmfYYDvoA" height="200" width="auto" /><br><br>]]></description>
+			<styleUrl>#icon-1899-F9A825</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/158-GbJrb9-9xgdeziPdoEYBA7_uc2PxMewo5pksuVX-mk059S-HOW2mWL70Bennhy3_xhv28I0NYpwXeXxvSNX2aTIuldBBiSdLgWxuzYT3gYYDngFTvSh7ZdmfYYDvoA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.8828206,40.809954,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lenape Playground</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/PMMOXOCBkUwxrcBL-IRGdSzgjMeuR11eCtXj-M3rQAq1j0vs5HT5y2oTQKMlzU2K8idmjN_1a1m92XBq_G57NOTFmTcqlHQu_t0r7x90liJw8TBK-_EW9QS2-gfixRIi" height="200" width="auto" /><br><br>A playground in Tottenville, Staten Island named after the Lenape people. New structures for children ages 2-5 include a wigwam shelter -- presumably a nod to the Lenape people as well.<br><br>http://www.silive.com/southshore/index.ssf/2015/03/shuttered_for_years_due_to_san.html<br><br>--Jonathan]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/PMMOXOCBkUwxrcBL-IRGdSzgjMeuR11eCtXj-M3rQAq1j0vs5HT5y2oTQKMlzU2K8idmjN_1a1m92XBq_G57NOTFmTcqlHQu_t0r7x90liJw8TBK-_EW9QS2-gfixRIi</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.2448938,40.4995587,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Weeksville Heritage Center (Banana Fritters)</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/vVii09i-dTIrQy3Slo3JmHO-MdRS920TGULvBtlLoyF6R-Vv5rB-X84HgjQNnSDDPhjSX6AXj20FNNLxXPQRAA_1AaHEepTzFluqoTWI_wfeFzjzahZoN_6uU0Hav4G7" height="200" width="auto" /><br><br>Weeksville Heritage Center (Banana Fritters)<br><br>Time Spent Walking: 15 - 18 mins <br><br>•	I imagine walking to you takes as long as making six serving of Banana fritterers. When I am in need of you, I envision granny plopping fitters into her cast iron skillet. She taught me to think of my journeys to you in the context of food. She knows her grand dawta too well. Lateness follows me as I move through this Western space-time continuum, but only time through food remind me of her – my – our temporality. <br><br>•	When you cross Atlantic Avenue you should be pouring the milk into the batter and this time don’t forget the bitters <br><br>•	By the time you reach Bergen Street carefully turn the heat to medium. Then run to the bathroom to quickly pee, making sure to come back in time the fitters burn. <br><br>•	Now you are at the middle of the block, She finally places each fitter on the paper towels, eyeing now again as the oil drain, drain away. <br><br>•	I think the tour lady said something about the settlement houses facing an old Lenape Road. And now you marvel at how it takes to walk here, even though you got here with food on your mind. <br><br>•	Yum, granny the fritters taste sweet nuh …but did the lady in the caramel colored dress have to tell that this place cost $3,000 to rent <br><br>•	I heard a Black co-operative once exist here; you know, one of those type of places that feed and care for Black folks, like what my granny does for me. It was mostly made up of freed African slaves. Probably they ate fritters, like how granny and me do.]]></description>
+			<styleUrl>#icon-1899-F9A825</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh6.googleusercontent.com/vVii09i-dTIrQy3Slo3JmHO-MdRS920TGULvBtlLoyF6R-Vv5rB-X84HgjQNnSDDPhjSX6AXj20FNNLxXPQRAA_1AaHEepTzFluqoTWI_wfeFzjzahZoN_6uU0Hav4G7</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9253119,40.6739761,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Jonathan, Pelham and the Bronx</name>
+		<Placemark>
+			<name>Siwanoy Wigwam</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/VSa-BqeVaI4gVxePyfNtyncwaqNdQ1DnY8UPOG9glxV6W1ofg_-MJ8wu5UVyn-KUsyc-S7leiy-pEcWr5Y_oiL78_bAGfF9bwvC4CRGWixq8J0UY1K5jUu4ikzDRtn-Ucw" height="200" width="auto" /><br><br>An authentic reproduction of a Siwanoy Wigwam, many of which were used in what is now Pelham Bay Park.<br><br>I find it ironic that the Siwanoy established permanent residence like this in Pelham Bay Park on the Long Island Sound, as it was always the place where I and my high school peers went to escape our permanent residences and experience nature, silence, secrecy, and illicit substances. <br><br>The degree to which this space was disrespected by me and my peers disturbs me very much, especially after learning of the immensely important uses of the land in Siwanoy culture. <br><br>http://www.newyorknature.net/Native.html<br><br>--Jonathan<br><br><img src="https://lh3.googleusercontent.com/dwq3oJEfEHSfn8dJU_9UKgYABnG55H0OMctDvUxneQq6LRg6Uam9o5E9KCeau-EwpcHyW9zpXLtHwZZt5sIghBE0qNfX5X6LObZE53spnaKIpPcVJjBHlQUMzJN-oKX7" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/VSa-BqeVaI4gVxePyfNtyncwaqNdQ1DnY8UPOG9glxV6W1ofg_-MJ8wu5UVyn-KUsyc-S7leiy-pEcWr5Y_oiL78_bAGfF9bwvC4CRGWixq8J0UY1K5jUu4ikzDRtn-Ucw https://lh3.googleusercontent.com/dwq3oJEfEHSfn8dJU_9UKgYABnG55H0OMctDvUxneQq6LRg6Uam9o5E9KCeau-EwpcHyW9zpXLtHwZZt5sIghBE0qNfX5X6LObZE53spnaKIpPcVJjBHlQUMzJN-oKX7</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.79761240000001,40.8756217,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Split Rock</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/YeM63qddqBYvYA3tHnbC0JUacb8lcHTP0IBH5Ua_SoSerA26RMgUfFO_oaznoAp0kSarVRNIVrUISoqZqyTsf7xPxvj-Csa36V2b6fMYRUP_-X9f07n-QF0OJWaSKiU" height="200" width="auto" /><br><br>This glacially formed rock (evidenced by the split in the middle) marks the base of an old Siwanoy trading path, Split Rock Road. <br><br>What's left of the path has been destroyed by the I-95 Highway which was paved over it to use "the path of least resistance." The rock itself stands in a triangular patch of land between I-95 and the Hutchinson River Parkway. <br><br>If you are interested in visiting, the most common route involves entering Pelham Bay Park by Beach Tree Lane in Pelham Manor, taking a right, then walking along the path (which circumvents the Pelham Bay / Split Rock Golf Course) until you reach an intersection of I-95 and the Hutch. You will have to run across a brief, one lane stretch of an I-95 exit to interact with Split Rock directly. This is both illegal and dangerous, so be careful!<br><br>--Jonathan  (photo taken by me).<br><br><img src="https://lh5.googleusercontent.com/Yzw3xusodU7p-Gy9EmCeH35JNFAVCGtly8mBcocLvnh2QPranXQxUqBjXfuR-SuUk-wsPUg--hPVo-0jMLAz_CK60qUpWKmWeQR0E6cWXb8A1Hhc_SUloWmGzN55ffmg" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/YeM63qddqBYvYA3tHnbC0JUacb8lcHTP0IBH5Ua_SoSerA26RMgUfFO_oaznoAp0kSarVRNIVrUISoqZqyTsf7xPxvj-Csa36V2b6fMYRUP_-X9f07n-QF0OJWaSKiU https://lh5.googleusercontent.com/Yzw3xusodU7p-Gy9EmCeH35JNFAVCGtly8mBcocLvnh2QPranXQxUqBjXfuR-SuUk-wsPUg--hPVo-0jMLAz_CK60qUpWKmWeQR0E6cWXb8A1Hhc_SUloWmGzN55ffmg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.8149339,40.8864798,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Siwanoy Elementary School</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/qKk-w0T3hKAECxruNiByaQ93WaNCz0IROrl8j0BenYPuw62OEB6bPeMF3WO0UW6cT_FJBeg24sxNxLTtW0rEVHjjGaqB9ZmD5JJOolVuRZ7MdqxSqRlDoGtgOA1Wf2eyBA" height="200" width="auto" /><br><br>This is an elementary school in my (Jonathan's) hometown of Pelham, New York. I think the fact that it commemorates the Siwanoy peoples who once inhabited the land it occupies is extremely notable, especially since so many more key aspects of the town (the Hutchinson River Parkway, Hutchinson Elementary School) stand to commemorate a woman who was murdered by the Siwanoy. <br><br>Though it is undeniably an act of tokenization / self-congratulatory commemoration of the people whose land the school sits atop, it still feels somewhat radical that the school is named “Siwanoy” amidst all of the regional hagiography of Anne Hutchinson. Though Hutchinson was a prominent figure in religious and critical thought, the naming of a parkway, river, and elementary school in her name seemingly pushes an “enlightened white woman murdered by savage natives” narrative.<br><br>While the Siwanoy did mistake Hutchinson for a Dutch Colonist (she was actually English) when attacking her, she still was living on land that was brutally stolen from the area’s indigenous population. Because of this, it is problematic that the town valorizes her as some sort of colonial martyr without giving due credit to the rightful owners of the town’s land.<br><br>http://historicpelham.blogspot.com/2005/03/split-rock-pelham-landmark-for.html<br><br>--Jonathan]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/qKk-w0T3hKAECxruNiByaQ93WaNCz0IROrl8j0BenYPuw62OEB6bPeMF3WO0UW6cT_FJBeg24sxNxLTtW0rEVHjjGaqB9ZmD5JJOolVuRZ7MdqxSqRlDoGtgOA1Wf2eyBA</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.8093124,40.8986381,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Murder of Anne Hutchinson</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/i1j7xSgkPGP2PwJckk3sJtQKEYovkboGw7vVOsGFlV8KN4S66zFweB5ilzcN1tzV4goHNeMbFjEIRqiYetLFa_1EzDa_sd4lb62HDGNpPbDBy2Tpk1ThgXr70-VanjOi" height="200" width="auto" /><br><br>An image depicting the murder of Anne Hutchinson which probably took place on what is now Co-op City in the Bronx.]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh6.googleusercontent.com/i1j7xSgkPGP2PwJckk3sJtQKEYovkboGw7vVOsGFlV8KN4S66zFweB5ilzcN1tzV4goHNeMbFjEIRqiYetLFa_1EzDa_sd4lb62HDGNpPbDBy2Tpk1ThgXr70-VanjOi</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.83027079999999,40.8763361,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Hutchinson Elementary School</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>-73.80925689999999,40.9156707,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Youth Knowledge (Molly)</name>
+		<Placemark>
+			<name>American Indian Community House</name>
+			<styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+			<Point>
+				<coordinates>-73.9953876,40.7487166,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Intersections International</name>
+			<styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+			<Point>
+				<coordinates>-73.9924003,40.7471001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Children&apos;s Cultural Center of Native America</name>
+			<styleUrl>#icon-1899-7CB342-nodesc</styleUrl>
+			<Point>
+				<coordinates>-73.9450662,40.8322375,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Amerinda Inc</name>
+			<description>American Indian Artists Inc</description>
+			<styleUrl>#icon-1899-7CB342</styleUrl>
+			<Point>
+				<coordinates>-73.98263559999999,40.7278391,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Green Flea Market</name>
+			<description>This is a place where I felt a special connection. There is something about being around antiques, old items loved before, that makes me feel really comfortable. It is different than fancy antique or thrift shops. There are stories and fascination.</description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-73.97808449999999,40.7810814,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Running point</name>
+			<description>Where I run from Greenwich Village. I know some people think that the pier may be relaxing, or away from the craziness of the city. But for me, it&apos;s a weird liminal space where I can see the edge of something man made, to the NJ city skyline, with water between. The water is interesting too, because it&apos;s almost a &quot;road&quot; as well. This space has been instrumental in my own understanding of how one can mentally retreat from the city while remaining in the city.</description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-74.01078339999999,40.7341613,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Thomas Asylum of Orphan and Destitute Indian Children</name>
+			<description>Also called the Thomas Indian School, these buildings housed and indoctrinated indigenous children across New York State. Today, it is a historic site. It was open from 1855-1957.</description>
+			<styleUrl>#icon-1899-FFD600</styleUrl>
+			<Point>
+				<coordinates>-78.9975804,42.5392868,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Education (Daniel)</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/STAMDdUnXbsPG0anJesRf9QipKZDfs7_9nLQl99UleJ5yGVHO2hPcbBO4kwGw2DskvgIvDIdLgB9UUvwLLRwqnYQM4-ifd8xXZXgpzrZR3RwRkR-tqNZqdV0UkpTST4o" height="200" width="auto" /><br><br>This is something I think that ties into what we are working on at NYU and in this course. This organization creates games, through online or through VR and AR, to education children. In addition to that, they educate parents, so they can learn side by side with their children. The education takes a lot of ideas from Native knowledge and teaches much about certain Native cultures and histories. This is an example of how indigenous futurism can be a powerful tool in education and be a valid and respected form of media. I had trouble deciding whether I should put this spot at NYU or I should put it at a children's school, but I ultimately decided at NYU Silver, because I think it is an underrepresented form of knowledge (as NYU does not have an indigenous/Native studies department - In addition to the ahistoricism of Native Americans in American education). I think we could also learn a lot from unfamiliar ways of knowing.<br>http://www.7generationgames.com/]]></description>
+			<styleUrl>#icon-1899-BDBDBD</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/STAMDdUnXbsPG0anJesRf9QipKZDfs7_9nLQl99UleJ5yGVHO2hPcbBO4kwGw2DskvgIvDIdLgB9UUvwLLRwqnYQM4-ifd8xXZXgpzrZR3RwRkR-tqNZqdV0UkpTST4o</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9957979,40.7301694,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Pinnguaq (Daniel)</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/KJ-PpshcDB0cR2hAGCZvmCPJTs9A7CcX3280qTdsyNvwJ-5_7Y28UiEmGN9ej1qgmC9BdtSolOcBD0HL8NBEpogWv4KLEHEoD5_nTcq9NeNctQVd2uHFGFwqWg0PcuD3" height="200" width="auto" /><br><br>This is a company that focuses on the stories, culture, and history of the Inuktitut. Pinnguaq means play in Inuktitut, and I think that's interesting, because play is a word constantly redefined within game theorist circles. This company uses Virtual Reality and game design to show the creatures within Inuktitut mythology. They want to tell stories and share facts about their culture. I think this is especially interesting, because it's similar to what our original plans of Virtual (and augmented) Reality. <br><br><img src="https://lh5.googleusercontent.com/2imYd3J6-hgUmCSYtt9-597N0PthgXdTREznmOYimRpRkFeK31-qDis6dmmQiEKlTmXGDDhuH3y9wkZ94J4YLTEktynCoFgnOAKAyMnExOwMLagLE0m4BIga-rIXi7PU" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-BDBDBD</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/KJ-PpshcDB0cR2hAGCZvmCPJTs9A7CcX3280qTdsyNvwJ-5_7Y28UiEmGN9ej1qgmC9BdtSolOcBD0HL8NBEpogWv4KLEHEoD5_nTcq9NeNctQVd2uHFGFwqWg0PcuD3 https://lh5.googleusercontent.com/2imYd3J6-hgUmCSYtt9-597N0PthgXdTREznmOYimRpRkFeK31-qDis6dmmQiEKlTmXGDDhuH3y9wkZ94J4YLTEktynCoFgnOAKAyMnExOwMLagLE0m4BIga-rIXi7PU</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9908385,40.7354376,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Immaculate Conception Church</name>
+			<description>Originally designed by American architecture firm, Barney &amp; Chapman, the same firm that designed the Thomas Asylum of Orphan and Destitute Indian Children. I find it interesting how the firm is known for both its churches, as well as asylums.</description>
+			<styleUrl>#icon-1899-FFD600</styleUrl>
+			<Point>
+				<coordinates>-73.9822849,40.7307782,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Church of the Holy Trinity</name>
+			<description>This church was originally designed by American architecture firm, Barney &amp; Chapman, the same firm that designed the Thomas Asylum of Orphan and Destitute Indian Children. I find it interesting how the firm is known for both its churches, as well as asylums. Also see the Immaculate Conception Church on this map.</description>
+			<styleUrl>#icon-1899-FFD600</styleUrl>
+			<Point>
+				<coordinates>-73.9496587,40.7784272,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>National Museum of the American Indian</name>
+			<description><![CDATA[I’ve found myself peripherally engaging with Julia Parker, a Coast Miwok-Kashaya Pomo basket weaver. Parker is one of the most prominent indigenous basket weavers in the world, with her baskets featured in a variety of museums around the world. At 89 years old, she sits in Yosemite Valley and teaches visitors about her life; growing up an Indian, being sent to a Native American boarding school, marrying the last full-blood Mono Lake Paiute, and engaging with the public about her heritage. I met Julia when I was a baby and my mother wove baskets under her instructions. I was young and playing in the dirt, harvesting acorns and building structures, while the women around me chatted about their weaving.<br>“Listen to the baskets sing,” was a common phrase. That is how one knows the basket is being woven expertly. <br>Parker often spoke about her time in boarding school, where children were completely immersed in the European-American culture, in language, appearance, and experience. This was in the pursuit of “civilizing the savages,” and this mentality lingers today, as society tends to view indigenous people as artifacts rather than relevant living beings today. The effects of the Indian Schools are still felt in such severe cultural disintegration amongst indigenous groups.]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-74.0137229,40.7040185,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>American Folk Art Museum</name>
+			<description>This has been one of my favorite places to visit because the intimacy of the space. It is a small museum, with paintings, sculptures, and especially quilts. I love the quilts because I love to look at art that is used. That&apos;s why I like baskets, as well. They have a purpose, they bring life or protect it.</description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-73.98139,40.773207,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Colonial Commemorations to Indigenous Peoples</name>
+		<Placemark>
+			<name>The Algonquin Hotel Times Square, Autograph Collection /</name>
+			<description><![CDATA[A Times Square hotel commemorating the Algonquin peoples.<br><br>--Jonathan]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-73.9824344,40.755953,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lenape Road</name>
+			<description>A small road named after the Lenape people in Linden, New Jersey.</description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-74.27828890000001,40.6318753,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Seneca Avenue</name>
+			<description><![CDATA[Avenue in Ridgewood, Queens commemorating  the Seneca, who were the largest of six Native American nations which comprised the Iroquois Confederacy or Six Nations, a democratic government that pre-dates the United States Constitution.<br><br>https://sni.org/culture/<br><br>--Jonathan]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<Point>
+				<coordinates>-73.9099238,40.7041269,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>National Museum of the American Indian</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/wG85TuQY_IhmaP78rmy09S3NJnUlktZWVOTUzjBKG7CjXWbuaY5c--s4VT77m-r5AXAlJLwBjJikUgNVtEqpmG-gRjwJHvLf5UobJ4vNR6a4WqCulJ1ve54Ju3IV2Gc6" height="200" width="auto" /><br><br>The National Museum of the American Indian–New York, the George Gustav Heye Center, is located within the historic Alexander Hamilton U.S. Custom House. The museum’s permanent and temporary exhibitions—as well as a range of public programs, including music and dance performances, films, and symposia—explore the diversity of the Native people of the Americas.]]></description>
+			<styleUrl>#icon-1899-0288D1</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh6.googleusercontent.com/wG85TuQY_IhmaP78rmy09S3NJnUlktZWVOTUzjBKG7CjXWbuaY5c--s4VT77m-r5AXAlJLwBjJikUgNVtEqpmG-gRjwJHvLf5UobJ4vNR6a4WqCulJ1ve54Ju3IV2Gc6</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0137229,40.7040185,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lenape Playground (Daniel)</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/rMr5GFd1OOkPX9JxWJ4k0f9bhlpAPUJjhosKDGzhAImt6o-iZyVCRwd_nZAxE_ZJnKxiTMCZyd4Nx00ycGP_geM5xZQcwm4fOuLOOtOSVzWZ3ycXO-AhgrTZXtjrENM" height="200" width="auto" /><br><br>This spot is a playground for the community that is more of an homage to the Lenape. The information on the NYC parks website provides some history on the Lenape, their language, and their history on the land. However, it retells a story that isn’t necessarily true and says there was bloodshed on both sides, which implies that the fault was on both sides when it was on the European colonizers for settler colonialism. The park however has been described by Native citizens as a thoughtful idea. https://www.nycgovparks.org/parks/marine-park/highlights/11918<br><br><img src="https://lh3.googleusercontent.com/aE0_JJMgfDzbIqsGTI8h0kxBQksw-l8NdQx7j0UOP-F4C5hN60Uy7AsQOSSak3XSCFslFHXK7GkSZGhaRytiOLKv3zXLtxnk9NE7mUW_IJSJckprEZ7_7jF1e3VrGym-2w" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-BDBDBD</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/rMr5GFd1OOkPX9JxWJ4k0f9bhlpAPUJjhosKDGzhAImt6o-iZyVCRwd_nZAxE_ZJnKxiTMCZyd4Nx00ycGP_geM5xZQcwm4fOuLOOtOSVzWZ3ycXO-AhgrTZXtjrENM https://lh3.googleusercontent.com/aE0_JJMgfDzbIqsGTI8h0kxBQksw-l8NdQx7j0UOP-F4C5hN60Uy7AsQOSSak3XSCFslFHXK7GkSZGhaRytiOLKv3zXLtxnk9NE7mUW_IJSJckprEZ7_7jF1e3VrGym-2w</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9264065,40.6063136,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Flora and Fauna</name>
+		<Placemark>
+			<name>JFK Jackrabbits</name>
+			<description>JFK&apos;s artificial plain/tundra environment is home to several unusual nonnative species including Snowy Owls from Greenland and Jackrabbits from the Southwest.</description>
+			<styleUrl>#icon-1899-795548</styleUrl>
+			<Point>
+				<coordinates>-73.7569714,40.6396838,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Lenape Shell Heap</name>
+			<description>http://nmai.si.edu/sites/1/files/pdf/education/Manahatta_to_manhattan.pdf</description>
+			<styleUrl>#icon-1899-795548</styleUrl>
+			<Point>
+				<coordinates>-74.0037849,40.7080871,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Breezy Point Tip Plovers</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/rsVbGzXB0hHu6mqDmnjKDXwBVwN2c3XJaH1ctmoadmcjMNfLFHQzpgFh8Drkk4LW3KcK5paKmGwJEpARJ-zGO7xQk8DFubPNFFTTi4p2s3PooEgTvSZsyBhFUCRwA33Z" height="200" width="auto" /><br><br>the Breezy Point Tip is a federally protected area where biologists have been carrying on an intensive campaign to save the piping plover, a native shorebird whose range throughout NYC has been greatly reduced by predators, development, beach traffic, and the effects of climate change. (photo from the National Parks Service but SERIOUSLY LOOK AT IT)]]></description>
+			<styleUrl>#icon-1899-795548</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/rsVbGzXB0hHu6mqDmnjKDXwBVwN2c3XJaH1ctmoadmcjMNfLFHQzpgFh8Drkk4LW3KcK5paKmGwJEpARJ-zGO7xQk8DFubPNFFTTi4p2s3PooEgTvSZsyBhFUCRwA33Z</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.93747329999999,40.5462871,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>American Elm (Jane)</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/P5h4bSPpeqUXprF2Ye0HnRQvjGuCquTgN8Mglm-LtXjRsGUy3LVA7U2D6JJBUXm1pLvNz7OQZpcEpUYk3p6rGWplMU4nZpo0pJUfSkKMAlpaUkBIH1UUkFze5ImSBWg" height="200" width="auto" /><br><br>The ulmus americana (American elm or white elm) is a species native to northeastern America. It is one of the many plants that the Lenape used to cure the common cold. The Lenape's medicinal uses for plants such as the Ulmus Americana was deeply tied to their spiritual connection to the plants. Today, the American elm is popular throughout cities because of its tolerance to urban conditions- the trees continue to grow upward as long as they are healthy. The tree's flexibility to the urban environment may be why it is so popular in New York City. Urban green spaces have been extremely beneficial for people's health and happiness. People who walk by parks are more likely to be happier and get more exercise. People enjoy spending time in parks and having a break from the urban chaos; however, many citizens would rather parks not to look too "wild" or resemble forests too much. In addition, making paths, planting only a few variations within the park, and preventing animals from living in the park can actually destroy the flora and fauna that is supposed to be there. Thus, because the American elm has been resilient in urban settings, they have been frequently planted in parks as well.  http://sweetgum.nybg.org/science/vh/specimen_details.php?irn=2355848]]></description>
+			<styleUrl>#icon-1899-FFEA00</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/P5h4bSPpeqUXprF2Ye0HnRQvjGuCquTgN8Mglm-LtXjRsGUy3LVA7U2D6JJBUXm1pLvNz7OQZpcEpUYk3p6rGWplMU4nZpo0pJUfSkKMAlpaUkBIH1UUkFze5ImSBWg</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9577293,40.7977135,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>American Elderberry (Jane)</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/GzeeqkA5odihLU6HOi9IVpsEz8hwzVhvq-5fapZ1tdhwvcjAxNb3VJxBwyz-dyRWbjSU_v3iwrDvLi1lfVGA8jFFBnr2mvUoGy6J2mJxCdxHrtjgESvBM-LUYEGknxQ" height="200" width="auto" /><br><br>The Lenape used the American elderberry, known in Latin as sambucus canadensis, for medicinal and cathartic purposes. The bark scrapings were used as sores, and the leaves could be used for jaundice. In addition, the flowers could help children's colic. Usually one person in a tribe, someone who has deep knowledge of the plants, was designated as the healer. This healer would usually perform a a short ritual before attending to someone who is sick. I created a short storybook connecting the history of pharmaceutical drugs and indigenous medicine- how did American society transition from herbal medicine to having Duane Reade's and CVS's in every street? The book is composed of my drawings and performed with oral storytelling. The reader would discover that before the 1970's, scientists attempted to replicate nature to make medicine. When the chemical compounds became too hard to duplicate, the chemists looked toward synthetic drug development to make medicine, leading us to the end of the "pharmaceutical era", where the drugs from the synthesis can no longer support us in fighting illnesses. Thus, botanists and researchers have been looking toward indigenous plants to find medical solutions for the next generation. On the other side of the book, a Lenape healer searches for the perfect plant to help her friend's sick baby. After a short prayer, nature helps her find exactly what she needs - the American elderberry plant. After boiling the flower petals and delivering the tea to her friend, the baby calms down and stops crying. The healer then returns to the elderberry and gives her thanks to the spot where she took the medicine.  http://sweetgum.nybg.org/science/vh/specimen_details.php?irn=2643392  <br><br><img src="https://lh3.googleusercontent.com/XVBJFkDpT2fcgJbqwldZLySrrlAKiSSMJi9SIayHJtvRwzqafwa2qP7b29t-vH8c7xxTl88IldT0D5RXX9VPJt7NVve0fbDtHMwEnt3pKYukcqjbByTpjv7yxaIUXVQ" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/II81nV2m1WiL3KcuxxdGKam6MsIikZQmUP_ng4qRzEMLuoS9cufajC8j3ZiHB3nyZlsdyHxiHuI6cLCtYaA8G2UN2i9qwpdLCh6UENUDl85dQEPnXy8R3yeoXTFoxcAo" height="200" width="auto" /><br><br><img src="https://lh6.googleusercontent.com/kogBZ6OOR43PWf5lrsqfofUDrx-fTrkKi4ToYWqY_ilJWct-eb3qXHu_6bVsgyrM87yAlmpypilnR4y-m6sOciTXUrxX7Wh8zjo0bh8aqy56-lduhVZsqk8QWs7hEvnD" height="200" width="auto" /><br><br><img src="https://lh3.googleusercontent.com/nxFWZ3OpLvYGE_MYz825o6tqja9f4bCpD-uEuUitcp-koi2Nl8GnXrLsdR6E7QvbRHbRsEZHJUjjKrQahZGxKt4J1pO2larWjq841NCCqAEkRwn88IMNgolNtT6nM92p" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-FFEA00</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh6.googleusercontent.com/GzeeqkA5odihLU6HOi9IVpsEz8hwzVhvq-5fapZ1tdhwvcjAxNb3VJxBwyz-dyRWbjSU_v3iwrDvLi1lfVGA8jFFBnr2mvUoGy6J2mJxCdxHrtjgESvBM-LUYEGknxQ https://lh3.googleusercontent.com/XVBJFkDpT2fcgJbqwldZLySrrlAKiSSMJi9SIayHJtvRwzqafwa2qP7b29t-vH8c7xxTl88IldT0D5RXX9VPJt7NVve0fbDtHMwEnt3pKYukcqjbByTpjv7yxaIUXVQ https://lh3.googleusercontent.com/II81nV2m1WiL3KcuxxdGKam6MsIikZQmUP_ng4qRzEMLuoS9cufajC8j3ZiHB3nyZlsdyHxiHuI6cLCtYaA8G2UN2i9qwpdLCh6UENUDl85dQEPnXy8R3yeoXTFoxcAo https://lh6.googleusercontent.com/kogBZ6OOR43PWf5lrsqfofUDrx-fTrkKi4ToYWqY_ilJWct-eb3qXHu_6bVsgyrM87yAlmpypilnR4y-m6sOciTXUrxX7Wh8zjo0bh8aqy56-lduhVZsqk8QWs7hEvnD https://lh3.googleusercontent.com/nxFWZ3OpLvYGE_MYz825o6tqja9f4bCpD-uEuUitcp-koi2Nl8GnXrLsdR6E7QvbRHbRsEZHJUjjKrQahZGxKt4J1pO2larWjq841NCCqAEkRwn88IMNgolNtT6nM92p</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9753,40.7668,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sweet Flag (Jane)</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/oe9_y68oMGo945Yxqb0OA5sEPEw700pnP8DPLCXHupmrveLSgYGbhSpA2k_argn4gLXAwwTquTz10dgW4D3CdcUNO9VTpiK1Fe1Bd0iOPDULeAIbVBgIlnb3sL8PWmCL" height="200" width="auto" /><br><br>Acorus calamus, also known as sweet flag, is a perennial wetland that the Lenape used as an herbal abortifacient. Although discourse on the indigenous use of herbs for abortions is rare, people have used plants to terminate pregnancies throughout history. Today, natural abortions are heavily frowned upon by the medical community. However, some women prefer herbal abortions to be closer to nature, or because of the high costs of an abortion. Indigenous women in the US have limited access to surgical abortions. Their birth rights are regulated by the IHS, the Indian Health Service. The IHS "serves all members of federally recognized Native<br>American tribes and their descendants, and it is their principal healthcare provider and<br>health advocate." However, in 1996, a memorandum was declared so that native women can only have an abortion if it saves their lives, or if the pregnancy was due to an act of rape or incest. This prevents many indigenous women in need from getting a medical abortion.  http://sweetgum.nybg.org/science/vh/specimen_details.php?irn=2643366  https://books.google.com/books?hl=en&lr=&id=2y1qghNDdBoC&oi=fnd&pg=PP9&dq=abortion+history+herb&ots=7t1LWJoqYn&sig=Q3rqWKFHH_XG2wbppt0Iq-Q5aFc#v=onepage&q=abortion%20history%20herb&f=false http://andigracewrites.com/2015/11/herbal-abortions-questions-concerns-and-clarity/ https://www.prochoice.org/pubs_research/publications/downloads/about_abortion/indigenous_women.pdf https://mic.com/articles/128589/women-are-learning-about-herbal-abortion-online-here-s-why-that-s-a-problem#.VVwXeoh4D]]></description>
+			<styleUrl>#icon-1899-FFEA00</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/oe9_y68oMGo945Yxqb0OA5sEPEw700pnP8DPLCXHupmrveLSgYGbhSpA2k_argn4gLXAwwTquTz10dgW4D3CdcUNO9VTpiK1Fe1Bd0iOPDULeAIbVBgIlnb3sL8PWmCL</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9509487,40.7952606,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Tulip Tree (Jane)</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/YNx3cKhp53v2ERmGs52_CWUJSeZYQsj1F2IFsYPtqUn3N-7F6QYgYWx--YhLFN5j0ryFyC2-L6XneR5KGb3gueH_J1bD2qb845Oi2fyrLjAjXQ5yaVsxaRYGsDPZwRE7" height="200" width="auto" /><br><br>The Queens Giant is a tulip tree (Liriodendron tulipifera in Latin) known as the longest carefully measured tree in New York City. http://sweetgum.nybg.org/science/vh/specimen_details.php?irn=1247449]]></description>
+			<styleUrl>#icon-1899-FFEA00</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/YNx3cKhp53v2ERmGs52_CWUJSeZYQsj1F2IFsYPtqUn3N-7F6QYgYWx--YhLFN5j0ryFyC2-L6XneR5KGb3gueH_J1bD2qb845Oi2fyrLjAjXQ5yaVsxaRYGsDPZwRE7</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.73843410000001,40.7423947,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Midterm Plant Project - Sea Rocket</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/5bfwbR7XggMm-XWd45NVZzI-KQ1uyM_d2meOW1l1uKy-rzsOsGOTAL5CZJTCvF3UEjogJe9EAF9rAiB3fgscl9iQwoOf8ElG78waFQaVoWAxljTwvYNtCEenyw-6IcQLxw" height="200" width="auto" /><br><br>Sea Rocket is an indigenous plant found throughout the East Coast that lives in - and stabilizes - dune ecosystems like the ones in the Rockaways. I chose this resilient little plant because delicate beach ecosystems (like this one, and the one I grew up in) and their survival into this era of climate change are very important to me.<br><br>- Chloe<br><br><img src="https://lh3.googleusercontent.com/F7KCpRBM_SQlmkoDl4i4A9XcNFSHyCuWFC3Ov1gFrhMJYRatwo2nngZF62Z1z1CD7VoaQYhK6pMUpLdB3x3rpJWJqtnSEdv0xfK_-I1bjcsK2haUz4TBU74pRuh0rjZ7" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-0F9D58</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh6.googleusercontent.com/5bfwbR7XggMm-XWd45NVZzI-KQ1uyM_d2meOW1l1uKy-rzsOsGOTAL5CZJTCvF3UEjogJe9EAF9rAiB3fgscl9iQwoOf8ElG78waFQaVoWAxljTwvYNtCEenyw-6IcQLxw https://lh3.googleusercontent.com/F7KCpRBM_SQlmkoDl4i4A9XcNFSHyCuWFC3Ov1gFrhMJYRatwo2nngZF62Z1z1CD7VoaQYhK6pMUpLdB3x3rpJWJqtnSEdv0xfK_-I1bjcsK2haUz4TBU74pRuh0rjZ7</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.8882065,40.5605038,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Midterm Plant Project - Sassafras</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/gg_CsGgfM4W75J7oRI8b4Fn3gFv-sQ6kLyzFF61f9OexdijIIrfmQ92dHrpN1t5TyPEqSSEpSfQR32hIcUunk0SxrTLH0GrWByDC1pBfSvzprRnI3eY9zSuC67DPUEAa" height="200" width="auto" /><br><br>Sassafras was an important medicinal plant to both the traditional Lenape and the European colonists whom they taught about native plants. I found a wild sassafras tree growing behind my house in the New York City Marble Cemetery. <br><br>- Chloe]]></description>
+			<styleUrl>#icon-1899-0F9D58</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/gg_CsGgfM4W75J7oRI8b4Fn3gFv-sQ6kLyzFF61f9OexdijIIrfmQ92dHrpN1t5TyPEqSSEpSfQR32hIcUunk0SxrTLH0GrWByDC1pBfSvzprRnI3eY9zSuC67DPUEAa</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9885855,40.7245594,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Midterm Plant Project - Tobacco</name>
+			<description><![CDATA[<img src="https://lh5.googleusercontent.com/--9LO8ZHi3E4-Hi1NppCFwW3tSQEPIvt0dtmUPFa-Qz14ABSpXEABG312UISlEKblLbDEV5oIZ0zt6CFeYrLALb98DaXiQlfvENdFa69sCIpnipbebUA0zz65GzObWQ" height="200" width="auto" /><br><br>Tobacco is a plant sacred to many Native American nations, and also one famous for its side effects and exploitative history. Tobacco was cultivated here at Sapokanikan, and was introduced to European colonists here as well as at Jamestown. <br><br><img src="https://lh5.googleusercontent.com/qth_PR0BAAVkbS2bV51mqBj3dEJCR7Yt0dDkSUeKtHOaGKLuJOxGONtKNwSdrEMNraZ-11QKRedttr6XPZJ89Gj1R5ME0A2x3Egm08yuaDD3phqEkObKTUPI1tG3ZSeb" height="200" width="auto" />]]></description>
+			<styleUrl>#icon-1899-0F9D58</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh5.googleusercontent.com/--9LO8ZHi3E4-Hi1NppCFwW3tSQEPIvt0dtmUPFa-Qz14ABSpXEABG312UISlEKblLbDEV5oIZ0zt6CFeYrLALb98DaXiQlfvENdFa69sCIpnipbebUA0zz65GzObWQ https://lh5.googleusercontent.com/qth_PR0BAAVkbS2bV51mqBj3dEJCR7Yt0dDkSUeKtHOaGKLuJOxGONtKNwSdrEMNraZ-11QKRedttr6XPZJ89Gj1R5ME0A2x3Egm08yuaDD3phqEkObKTUPI1tG3ZSeb</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-74.0054512,40.7446559,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Poster Project - Capitalism, the Environment, and Human Life</name>
+			<description>This installment of my poster project focuses on the intersections of the transatlantic slave trade and the development of New York City as an economic power with the sacredness of the natural environment, including tobacco cultivation and the delicate balance of our estuarine system.</description>
+			<styleUrl>#icon-1899-0F9D58</styleUrl>
+			<Point>
+				<coordinates>-74.00521519999999,40.7410549,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Sheep Meadow (Daniel)</name>
+			<description><![CDATA[<img src="https://lh6.googleusercontent.com/LlRuFfKBNt8AlIgfsNCMmL7X28Y4v-vaUWDVThNOOQoQ2Av68Q17W3KoUBnhtCIiz4CYy8e-iAq0cJrMDUvYPwWMq2PfNc4-efIBes344r0HAlhZHNTxMX4q5PooJG9X" height="200" width="auto" /><br><br>Sheep Meadow is a constant in my life whether it be where I go to hang out after school, where I go to sled, or where I take my friends from out of town to show them the park. This is where people can play games in the field, and in fact, I did that almost every week. Whether it be in the sun on the grass or sledding in the snow, I played games with my friends. I think the appeal of this area is the flora and fauna.]]></description>
+			<styleUrl>#icon-1899-BDBDBD</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh6.googleusercontent.com/LlRuFfKBNt8AlIgfsNCMmL7X28Y4v-vaUWDVThNOOQoQ2Av68Q17W3KoUBnhtCIiz4CYy8e-iAq0cJrMDUvYPwWMq2PfNc4-efIBes344r0HAlhZHNTxMX4q5PooJG9X</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.97460580000001,40.7724331,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Great Lawn (Daniel)</name>
+			<description><![CDATA[<img src="https://lh3.googleusercontent.com/8DAGO-6zz1cQk7BTzvMCnaLCiSJBoJbGS9lkuqM3aVQDDt1JMAOfiQn0qwEJJiKrthHIZf256Dti4G6-WuP3pt-w9RWi3I5Tz6iWp1X6z-b9yPlvRY9yjqrQKQWAvEI0" height="200" width="auto" /><br><br>The Great Lawn is a spot in the middle of Manhattan where I would hang out with friends. Generally, we'd play on the rocks and then play in the grass. In my high school, we had a few of our gym classes here, where we either played sports or ran around the park. I think it's interesting to see how people use the setting they are in and help them create games.]]></description>
+			<styleUrl>#icon-1899-BDBDBD</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh3.googleusercontent.com/8DAGO-6zz1cQk7BTzvMCnaLCiSJBoJbGS9lkuqM3aVQDDt1JMAOfiQn0qwEJJiKrthHIZf256Dti4G6-WuP3pt-w9RWi3I5Tz6iWp1X6z-b9yPlvRY9yjqrQKQWAvEI0</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.96658600000001,40.7813863,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Maumun&apos;dl (Daniel)</name>
+			<description><![CDATA[<img src="https://lh4.googleusercontent.com/px4Gl-4BD0TsiQK3A8cWjG8ZPus1dTktc-rBjrc22JCJsKKusDah1-S2n6LFEotWbJy9ad3qPQQ7LehusaLJkCz2I2sRHzKb0flBZN-F0kkIv5K8BcE2IU04hD8n5-of" height="200" width="auto" /><br><br>This is a game I found played by both the Cree and the Lenape. It is called Maumun'dl. There are twelve bones, one side of the bone colored white and the other side colored any other color, they are thrown in the air from a bowl and when they are caught, however many pieces have the white side facing up are how many winnings are counted. Generally this game was bet on. I think I would include Tompkins Square Park in this, because all the items needed for this game could be found there. On top of that, I find it to be a park where people can hang out and communicate with each other. To me, it is a good place to play games, as I've done it before and have spent a lot of time in. Not to mention, I see a lot of people playing games and betting on them, so I think it is a proper setting. https://archive.org/stream/gamesofnorthamer00culirich#page/70/mode/2up]]></description>
+			<styleUrl>#icon-1899-BDBDBD</styleUrl>
+			<ExtendedData>
+				<Data name="gx_media_links">
+					<value>https://lh4.googleusercontent.com/px4Gl-4BD0TsiQK3A8cWjG8ZPus1dTktc-rBjrc22JCJsKKusDah1-S2n6LFEotWbJy9ad3qPQQ7LehusaLJkCz2I2sRHzKb0flBZN-F0kkIv5K8BcE2IU04hD8n5-of</value>
+				</Data>
+			</ExtendedData>
+			<Point>
+				<coordinates>-73.9828321,40.7265026,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Pilgrim Pipeline, Molly</name>
+		<Placemark>
+			<name>Indian Point Energy Center</name>
+			<styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+			<Point>
+				<coordinates>-73.9513992,41.267997,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

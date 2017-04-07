@@ -50,7 +50,7 @@ public class AboutFragment extends Fragment {
 //    @Override
 //    public void onCreate(Bundle savedInstanceState) {
 //        super.onCreate(savedInstanceState);
-//        if (getArguments() != null) {
+//        classmap (getArguments() != null) {
 //            mParam1 = getArguments().getString(ARG_PARAM1);
 //            mParam2 = getArguments().getString(ARG_PARAM2);
 //        }
@@ -65,7 +65,7 @@ public class AboutFragment extends Fragment {
 //
 //    // TODO: Rename method, update argument and hook method into UI event
 //    public void onButtonPressed(Uri uri) {
-//        if (mListener != null) {
+//        classmap (mListener != null) {
 //            mListener.onFragmentInteraction(uri);
 //        }
 //    }
@@ -73,7 +73,7 @@ public class AboutFragment extends Fragment {
 //    @Override
 //    public void onAttach(Context context) {
 //        super.onAttach(context);
-//        if (context instanceof OnFragmentInteractionListener) {
+//        classmap (context instanceof OnFragmentInteractionListener) {
 //            mListener = (OnFragmentInteractionListener) context;
 //        } else {
 //            throw new RuntimeException(context.toString()
