@@ -2,7 +2,6 @@ package com.example.janechoe.myapplication;
 
 import android.app.Fragment;
 import android.app.FragmentTransaction;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.DrawerLayout;
@@ -134,9 +133,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         //how to add kml file from url?
 
     }
-//    private void retrieveFilefromURL(){
-//            new DownloadKmlFile(getString(R.string.kml_google)).execute();
-//    }
     private void retrieveFileFromResource() {
         try {
             KmlLayer kmlLayer = new KmlLayer(mMap, R.raw.buns, getApplicationContext());
@@ -148,51 +144,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             e.printStackTrace();
         }
     }
-//    private class DownloadKmlFile extends AsyncTask<String, Void, byte[]> {
-//        private final String mUrl;
-//
-//        public DownloadKmlFile(String url) {
-//            mUrl = url;
-//        }
-//
-//        protected byte[] doInBackground(String... params) {
-//            try {
-//                InputStream is = new URL(mUrl).openStream();
-//                ByteArrayOutputStream buffer = new ByteArrayOutputStream();
-//                int nRead;
-//                byte[] data = new byte[16384];
-//                while ((nRead = is.read(data, 0, data.length)) != -1) {
-//                    buffer.write(data, 0, nRead);
-//                }
-//                buffer.flush();
-//                return buffer.toByteArray();
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//            return null;
-//        }
-
-//        protected void onPostExecute(byte[] byteArr) {
-//            try {
-//                KmlLayer kmlLayer = new KmlLayer(mMap, new ByteArrayInputStream(byteArr),
-//                        getApplicationContext());
-//                kmlLayer.addLayerToMap();
-//                kmlLayer.setOnFeatureClickListener(new KmlLayer.OnFeatureClickListener() {
-//                    @Override
-//                    public void onFeatureClick(Feature feature) {
-//                        Toast.makeText(MapsActivity.this,
-//                                "Feature clicked: " + feature.getId(),
-//                                Toast.LENGTH_SHORT).show();
-//                    }
-//                });
-//                moveCameraToKml(kmlLayer);
-//            } catch (XmlPullParserException e) {
-//                e.printStackTrace();
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//        }
-//    }
     private void moveCameraToKml(KmlLayer kmlLayer) {
         //Retrieve the first container in the KML layer
         KmlContainer container = kmlLayer.getContainers().iterator().next();
